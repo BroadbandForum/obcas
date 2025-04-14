@@ -27,7 +27,7 @@ Release 1.0.0 Highlights:
 
 -   OB-CAS Sandbox/Simulation Environment
 
-    -   A simulation environment is available based on OB-CAS core functionality (persistent management agent) along with OLT/ONT simulators
+    -   A simulation environment is available based on OB-BAA core functionality (persistent management agent) along with OLT/ONT simulators
 
 -   Relevant Documentation
 
