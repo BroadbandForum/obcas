@@ -86,7 +86,7 @@ Design Document.
 
 ### Release 1
 
-* [OB-CAS release 1.0.0 (April 2025)]({{ site.obcas_readme }}#rel_1_0_0)
+* [OB-CAS release 1.0.0 (14 April 2025)]({{ site.obcas_readme }}#rel_1_0_0)
 
 
 ## Participants

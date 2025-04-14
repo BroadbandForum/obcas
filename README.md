@@ -1,4 +1,4 @@
-# OB-CAS R1.0.0 Release Notes (April 2025)
+# OB-CAS R1.0.0 Release Notes (14 April 2025)
 
 <a name="rel_1_0_0"></a>
 
