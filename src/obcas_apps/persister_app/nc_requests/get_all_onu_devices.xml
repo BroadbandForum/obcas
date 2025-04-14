@@ -1,0 +1,11 @@
+<filter type="subtree">
+    <network-manager xmlns="urn:bbf:yang:obbaa:network-manager">
+        <managed-devices>
+            <device>
+                <device-management>
+                    <type>ONU</type>
+                </device-management>
+            </device>
+        </managed-devices>
+    </network-manager>
+</filter>

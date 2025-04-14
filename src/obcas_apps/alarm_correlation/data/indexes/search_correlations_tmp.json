@@ -1,0 +1,9 @@
+{
+  "size": 10000,
+  "query": {
+    "match_phrase": {
+      "alarmResource": "$alarmResource$"
+    }
+  },
+  "_source": ["_id", "time"]
+}

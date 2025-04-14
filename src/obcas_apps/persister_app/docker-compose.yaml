@@ -1,0 +1,41 @@
+# Copyright 2024 Broadband Forum
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#
+# http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+version: '3.5'
+networks:
+    obcaspa_default:
+        driver: bridge
+        name: obcaspa_default
+services:
+    persister_app:
+        image: broadbandforum/obcas-persister-app:latest
+        hostname: obcas-persister-app
+        container_name: obcas-persister-app
+        ports:
+            - 8505:8501 # port to be used for the webGUI streamlit fwk
+            - 5000:5000
+        environment:
+            OPENSEARCH_HOST: "127.0.0.1" #change IP to the right public ip of open-search server.
+            OPENSEARCH_PORT: 9200
+            OPENSEARCH_USER: "admin"
+            OPENSEARCH_PASSWORD: "Obcas@2024"
+            OPENSEARCH_CA_CERT_PATH: "/obcas-pa/root-ca.pem"
+            BAA_SERVER_IP: "127.0.0.1" # update the right public IP of BAA server
+            KAFKA_CONSUMER_GROUP: 'vOLTMF'
+            KAFKA_TOPIC: 'obcas-alarm-notification'
+            KAFKA_BOOTSTRAP_SERVER: 'kafka:9092'
+            KAFKA_CLIENT_ID: 'obbaa_client'
+        networks:
+            - obcaspa_default

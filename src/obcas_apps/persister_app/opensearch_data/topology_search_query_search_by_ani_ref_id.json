@@ -1,0 +1,14 @@
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match": {
+            "aniRefId": "%aniRefId%"
+          }
+        }
+      ]
+    }
+  },
+  "_source": ["deviceRefId", "olt"]
+}

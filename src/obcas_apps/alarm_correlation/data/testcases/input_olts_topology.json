@@ -1,0 +1,107 @@
+[
+    {
+        "deviceRefId": "olt1",
+        "olt_vendor": "VENDOR1",
+        "serverRoom": "room3"
+    },
+    {
+        "deviceRefId": "olt2",
+        "olt_vendor": "VENDOR4",
+        "serverRoom": "room3"
+    },
+    {
+        "deviceRefId": "olt3",
+        "olt_vendor": "VENDOR1",
+        "serverRoom": "room3"
+    },
+    {
+        "deviceRefId": "olt4",
+        "olt_vendor": "VENDOR2",
+        "serverRoom": "room3"
+    },
+    {
+        "deviceRefId": "olt5",
+        "olt_vendor": "VENDOR2",
+        "serverRoom": "room3"
+    },
+    {
+        "deviceRefId": "olt6",
+        "olt_vendor": "VENDOR4",
+        "serverRoom": "room1"
+    },
+    {
+        "deviceRefId": "olt7",
+        "olt_vendor": "VENDOR1",
+        "serverRoom": "room1"
+    },
+    {
+        "deviceRefId": "olt8",
+        "olt_vendor": "VENDOR1",
+        "serverRoom": "room1"
+    },
+    {
+        "deviceRefId": "olt9",
+        "olt_vendor": "VENDOR3",
+        "serverRoom": "room3"
+    },
+    {
+        "deviceRefId": "olt10",
+        "olt_vendor": "VENDOR4",
+        "serverRoom": "room2"
+    },
+    {
+        "deviceRefId": "olt11",
+        "olt_vendor": "VENDOR3",
+        "serverRoom": "room1"
+    },
+    {
+        "deviceRefId": "olt12",
+        "olt_vendor": "VENDOR3",
+        "serverRoom": "room3"
+    },
+    {
+        "deviceRefId": "olt13",
+        "olt_vendor": "VENDOR4",
+        "serverRoom": "room2"
+    },
+    {
+        "deviceRefId": "olt14",
+        "olt_vendor": "VENDOR2",
+        "serverRoom": "room1"
+    },
+    {
+        "deviceRefId": "olt15",
+        "olt_vendor": "VENDOR1",
+        "serverRoom": "room3"
+    },
+    {
+        "deviceRefId": "olt16",
+        "olt_vendor": "VENDOR1",
+        "serverRoom": "room1"
+    },
+    {
+        "deviceRefId": "olt17",
+        "olt_vendor": "VENDOR3",
+        "serverRoom": "room2"
+    },
+    {
+        "deviceRefId": "olt18",
+        "olt_vendor": "VENDOR3",
+        "serverRoom": "room1"
+    },
+    {
+        "deviceRefId": "olt19",
+        "olt_vendor": "VENDOR2",
+        "serverRoom": "room1"
+    },
+    {
+        "deviceRefId": "olt20",
+        "olt_vendor": "VENDOR1",
+        "serverRoom": "room3"
+    },
+    {
+        "deviceRefId": "olt21",
+        "olt_vendor": "VENDOR2",
+        "serverRoom": "room3"
+    }
+]

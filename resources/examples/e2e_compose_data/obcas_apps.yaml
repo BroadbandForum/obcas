@@ -1,0 +1,53 @@
+version: '3.5'
+networks:
+    obcas_apps:
+        driver: bridge
+        name: obcas_apps
+services:
+    persister_app:
+      image: broadbandforum/obcas-persister-app:latest
+      hostname: obcas-persister-app
+      container_name: obcas-persister-app
+      ports:
+        - 8505:8501 # port to be used for the webGUI streamlit fwk
+        - 5000:5000 # port to be used for the REST API
+      environment:
+        OPENSEARCH_HOST: "127.0.0.1" #change IP to the right public ip of open-search server.
+        OPENSEARCH_PORT: 9200
+        OPENSEARCH_USER: "admin"
+        OPENSEARCH_PASSWORD: "Obcas@2024"
+        OPENSEARCH_CA_CERT_PATH: "/obcas-pa/root-ca.pem"
+        BAA_SERVER_IP: "127.0.0.1" # update the right public IP of BAA server
+        LOG_OPT: fluentd
+        LOG_LEVEL: INFO
+        FLUENTD_LOG_DIRECT_URL: '127.0.0.1:24224' # update the right public IP of FLUENT server
+        FLUENTD_LOG_DIRECT_TAG: obcas-persister-app # must be same as container name
+      logging:
+        driver: fluentd
+        options:
+          fluentd-address: '127.0.0.1:24224' # update the right public IP of FLUENT server
+      networks:
+        - obcas_apps
+
+    alarm_correlation_app:
+        image: broadbandforum/obcas-alarm-correlation:latest
+        hostname: obcas-alarm-correlation
+        container_name: obcas-alarm-correlation
+        environment:
+            OPENSEARCH_HOST: "127.0.0.1"  # Public IP address of OpenSearch server
+            OPENSEARCH_PORT: 9200
+            OPENSEARCH_USER: "admin"
+            OPENSEARCH_PASSWORD: "Obcas@2024"
+            OPENSEARCH_CA_CERT_PATH: "/obcas_alarm_correlation/root-ca.pem"
+            LOG_OPT: fluentd
+            LOG_LEVEL: INFO
+            FLUENTD_LOG_DIRECT_URL: '127.0.0.1:24224'
+            FLUENTD_LOG_DIRECT_TAG: obcas-alarm-correlation # must be same as container name
+        logging:
+            driver: fluentd
+            options:
+                fluentd-address: '127.0.0.1:24224' # update the right public IP of FLUENT server
+        networks:
+          - obcas_apps
+        depends_on:
+          - persister_app

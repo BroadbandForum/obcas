@@ -1,0 +1,894 @@
+{
+    "onu1": {
+        "olt": "olt0",
+        "vendor": "VENDOR1",
+        "location": "building0",
+        "channelTermination": "olt0.ct0",
+        "splitter1": "olt0.ct0.sp0",
+        "vomci": "vomci1"
+    },
+    "onu2": {
+        "olt": "olt0",
+        "channelTermination": "olt0.ct1",
+        "splitter1": "olt0.ct1.sp1",
+        "vendor": "VENDOR2",
+        "location": "building0",
+        "vomci": "vomci1"
+    },
+    "onu3": {
+        "olt": "olt0",
+        "vomci": "vomci3",
+        "location": "building0",
+        "channelTermination": "olt0.ct2",
+        "splitter1": "olt0.ct2.sp0",
+        "vendor": "VENDOR4"
+    },
+    "onu4": {
+        "vomci": "vomci2",
+        "location": "building0",
+        "olt": "olt0",
+        "channelTermination": "olt0.ct3",
+        "splitter1": "olt0.ct3.sp1",
+        "vendor": "VENDOR1"
+    },
+    "onu5": {
+        "vomci": "vomci1",
+        "location": "building0",
+        "olt": "olt0",
+        "channelTermination": "olt0.ct0",
+        "splitter1": "olt0.ct0.sp0",
+        "vendor": "VENDOR2"
+    },
+    "onu6": {
+        "olt": "olt1",
+        "channelTermination": "olt1.ct1",
+        "splitter1": "olt1.ct1.sp1",
+        "vendor": "VENDOR3",
+        "location": "building0",
+        "vomci": "vomci2"
+    },
+    "onu7": {
+        "location": "building1",
+        "olt": "olt1",
+        "channelTermination": "olt1.ct2",
+        "splitter1": "olt1.ct2.sp0",
+        "vendor": "VENDOR3",
+        "vomci": "vomci3"
+    },
+    "onu8": {
+        "location": "building1",
+        "olt": "olt1",
+        "channelTermination": "olt1.ct3",
+        "splitter1": "olt1.ct3.sp1",
+        "vendor": "VENDOR2",
+        "vomci": "vomci3"
+    },
+    "onu9": {
+        "location": "building1",
+        "olt": "olt1",
+        "channelTermination": "olt1.ct0",
+        "splitter1": "olt1.ct0.sp0",
+        "vendor": "VENDOR4",
+        "vomci": "vomci2"
+    },
+    "onu10": {
+        "location": "building1",
+        "olt": "olt1",
+        "channelTermination": "olt1.ct1",
+        "splitter1": "olt1.ct1.sp1",
+        "vendor": "VENDOR4",
+        "vomci": "vomci3"
+    },
+    "onu11": {
+        "location": "building1",
+        "olt": "olt2",
+        "channelTermination": "olt2.ct2",
+        "splitter1": "olt2.ct2.sp0",
+        "vendor": "VENDOR3",
+        "vomci": "vomci1"
+    },
+    "olt1": {
+        "olt_vendor": "VENDOR1",
+        "serverRoom": "room3"
+    },
+    "olt2": {
+        "olt_vendor": "VENDOR4",
+        "serverRoom": "room3"
+    },
+    "olt3": {
+        "serverRoom": "room3",
+        "olt_vendor": "VENDOR1"
+    },
+    "olt4": {
+        "serverRoom": "room3",
+        "olt_vendor": "VENDOR2"
+    },
+    "onu12": {
+        "olt": "olt2",
+        "channelTermination": "olt2.ct3",
+        "splitter1": "olt2.ct3.sp1",
+        "vendor": "VENDOR3",
+        "vomci": "vomci3",
+        "location": "building1"
+    },
+    "onu13": {
+        "olt": "olt2",
+        "channelTermination": "olt2.ct0",
+        "splitter1": "olt2.ct0.sp0",
+        "vendor": "VENDOR4",
+        "vomci": "vomci2",
+        "location": "building2"
+    },
+    "onu14": {
+        "olt": "olt2",
+        "channelTermination": "olt2.ct1",
+        "splitter1": "olt2.ct1.sp1",
+        "vendor": "VENDOR1",
+        "vomci": "vomci3",
+        "location": "building2"
+    },
+    "onu15": {
+        "olt": "olt2",
+        "channelTermination": "olt2.ct2",
+        "splitter1": "olt2.ct2.sp0",
+        "vendor": "VENDOR2",
+        "vomci": "vomci2",
+        "location": "building2"
+    },
+    "onu16": {
+        "olt": "olt3",
+        "channelTermination": "olt3.ct3",
+        "splitter1": "olt3.ct3.sp1",
+        "vendor": "VENDOR1",
+        "vomci": "vomci2",
+        "location": "building2"
+    },
+    "onu17": {
+        "olt": "olt3",
+        "channelTermination": "olt3.ct0",
+        "splitter1": "olt3.ct0.sp0",
+        "vendor": "VENDOR1",
+        "vomci": "vomci3",
+        "location": "building2"
+    },
+    "onu18": {
+        "olt": "olt3",
+        "channelTermination": "olt3.ct1",
+        "splitter1": "olt3.ct1.sp1",
+        "vendor": "VENDOR1",
+        "vomci": "vomci3",
+        "location": "building2"
+    },
+    "onu19": {
+        "olt": "olt3",
+        "channelTermination": "olt3.ct2",
+        "splitter1": "olt3.ct2.sp0",
+        "vendor": "VENDOR1",
+        "vomci": "vomci3",
+        "location": "building3"
+    },
+    "onu20": {
+        "olt": "olt3",
+        "channelTermination": "olt3.ct3",
+        "splitter1": "olt3.ct3.sp1",
+        "vendor": "VENDOR1",
+        "vomci": "vomci2",
+        "location": "building3"
+    },
+    "onu21": {
+        "olt": "olt4",
+        "channelTermination": "olt4.ct0",
+        "splitter1": "olt4.ct0.sp0",
+        "vendor": "VENDOR4",
+        "vomci": "vomci1",
+        "location": "building3"
+    },
+    "onu22": {
+        "olt": "olt4",
+        "channelTermination": "olt4.ct1",
+        "splitter1": "olt4.ct1.sp1",
+        "vendor": "VENDOR1",
+        "vomci": "vomci2",
+        "location": "building3"
+    },
+    "onu23": {
+        "olt": "olt4",
+        "channelTermination": "olt4.ct2",
+        "splitter1": "olt4.ct2.sp0",
+        "vendor": "VENDOR2",
+        "vomci": "vomci3",
+        "location": "building3"
+    },
+    "onu24": {
+        "olt": "olt4",
+        "channelTermination": "olt4.ct3",
+        "splitter1": "olt4.ct3.sp1",
+        "vendor": "VENDOR3",
+        "vomci": "vomci3",
+        "location": "building3"
+    },
+    "onu25": {
+        "olt": "olt4",
+        "channelTermination": "olt4.ct0",
+        "splitter1": "olt4.ct0.sp0",
+        "vendor": "VENDOR1",
+        "vomci": "vomci2",
+        "location": "building4"
+    },
+    "onu26": {
+        "olt": "olt5",
+        "channelTermination": "olt5.ct1",
+        "splitter1": "olt5.ct1.sp1",
+        "vendor": "VENDOR4",
+        "vomci": "vomci2",
+        "location": "building4"
+    },
+    "onu27": {
+        "olt": "olt5",
+        "channelTermination": "olt5.ct2",
+        "splitter1": "olt5.ct2.sp0",
+        "vendor": "VENDOR3",
+        "vomci": "vomci1",
+        "location": "building4"
+    },
+    "onu28": {
+        "olt": "olt5",
+        "channelTermination": "olt5.ct3",
+        "splitter1": "olt5.ct3.sp1",
+        "vendor": "VENDOR2",
+        "vomci": "vomci1",
+        "location": "building4"
+    },
+    "onu29": {
+        "olt": "olt5",
+        "channelTermination": "olt5.ct0",
+        "splitter1": "olt5.ct0.sp0",
+        "vendor": "VENDOR3",
+        "vomci": "vomci3",
+        "location": "building4"
+    },
+    "onu30": {
+        "olt": "olt5",
+        "channelTermination": "olt5.ct1",
+        "splitter1": "olt5.ct1.sp1",
+        "vendor": "VENDOR4",
+        "vomci": "vomci3",
+        "location": "building4"
+    },
+    "onu31": {
+        "olt": "olt6",
+        "channelTermination": "olt6.ct2",
+        "splitter1": "olt6.ct2.sp0",
+        "vendor": "VENDOR2",
+        "vomci": "vomci2",
+        "location": "building5"
+    },
+    "onu32": {
+        "olt": "olt6",
+        "channelTermination": "olt6.ct3",
+        "splitter1": "olt6.ct3.sp1",
+        "vendor": "VENDOR3",
+        "vomci": "vomci3",
+        "location": "building5"
+    },
+    "onu33": {
+        "olt": "olt6",
+        "channelTermination": "olt6.ct0",
+        "splitter1": "olt6.ct0.sp0",
+        "vendor": "VENDOR1",
+        "vomci": "vomci1",
+        "location": "building5"
+    },
+    "onu34": {
+        "olt": "olt6",
+        "channelTermination": "olt6.ct1",
+        "splitter1": "olt6.ct1.sp1",
+        "vendor": "VENDOR2",
+        "vomci": "vomci3",
+        "location": "building5"
+    },
+    "onu35": {
+        "olt": "olt6",
+        "channelTermination": "olt6.ct2",
+        "splitter1": "olt6.ct2.sp0",
+        "vendor": "VENDOR2",
+        "vomci": "vomci2",
+        "location": "building5"
+    },
+    "onu36": {
+        "olt": "olt7",
+        "channelTermination": "olt7.ct3",
+        "splitter1": "olt7.ct3.sp1",
+        "vendor": "VENDOR4",
+        "vomci": "vomci1",
+        "location": "building5"
+    },
+    "onu37": {
+        "olt": "olt7",
+        "channelTermination": "olt7.ct0",
+        "splitter1": "olt7.ct0.sp0",
+        "vendor": "VENDOR1",
+        "vomci": "vomci3",
+        "location": "building6"
+    },
+    "onu38": {
+        "olt": "olt7",
+        "channelTermination": "olt7.ct1",
+        "splitter1": "olt7.ct1.sp1",
+        "vendor": "VENDOR4",
+        "vomci": "vomci2",
+        "location": "building6"
+    },
+    "onu39": {
+        "olt": "olt7",
+        "channelTermination": "olt7.ct2",
+        "splitter1": "olt7.ct2.sp0",
+        "vendor": "VENDOR1",
+        "vomci": "vomci3",
+        "location": "building6"
+    },
+    "onu40": {
+        "olt": "olt7",
+        "channelTermination": "olt7.ct3",
+        "splitter1": "olt7.ct3.sp1",
+        "vendor": "VENDOR4",
+        "vomci": "vomci2",
+        "location": "building6"
+    },
+    "onu41": {
+        "olt": "olt8",
+        "channelTermination": "olt8.ct0",
+        "splitter1": "olt8.ct0.sp0",
+        "vendor": "VENDOR2",
+        "vomci": "vomci2",
+        "location": "building6"
+    },
+    "onu42": {
+        "olt": "olt8",
+        "channelTermination": "olt8.ct1",
+        "splitter1": "olt8.ct1.sp1",
+        "vendor": "VENDOR4",
+        "vomci": "vomci3",
+        "location": "building6"
+    },
+    "onu43": {
+        "olt": "olt8",
+        "channelTermination": "olt8.ct2",
+        "splitter1": "olt8.ct2.sp0",
+        "vendor": "VENDOR2",
+        "vomci": "vomci3",
+        "location": "building7"
+    },
+    "onu44": {
+        "olt": "olt8",
+        "channelTermination": "olt8.ct3",
+        "splitter1": "olt8.ct3.sp1",
+        "vendor": "VENDOR1",
+        "vomci": "vomci1",
+        "location": "building7"
+    },
+    "onu45": {
+        "olt": "olt8",
+        "channelTermination": "olt8.ct0",
+        "splitter1": "olt8.ct0.sp0",
+        "vendor": "VENDOR2",
+        "vomci": "vomci1",
+        "location": "building7"
+    },
+    "onu46": {
+        "olt": "olt9",
+        "channelTermination": "olt9.ct1",
+        "splitter1": "olt9.ct1.sp1",
+        "vendor": "VENDOR4",
+        "vomci": "vomci2",
+        "location": "building7"
+    },
+    "onu47": {
+        "olt": "olt9",
+        "channelTermination": "olt9.ct2",
+        "splitter1": "olt9.ct2.sp0",
+        "vendor": "VENDOR4",
+        "vomci": "vomci3",
+        "location": "building7"
+    },
+    "onu48": {
+        "olt": "olt9",
+        "channelTermination": "olt9.ct3",
+        "splitter1": "olt9.ct3.sp1",
+        "vendor": "VENDOR1",
+        "vomci": "vomci2",
+        "location": "building7"
+    },
+    "onu49": {
+        "olt": "olt9",
+        "channelTermination": "olt9.ct0",
+        "splitter1": "olt9.ct0.sp0",
+        "vendor": "VENDOR1",
+        "vomci": "vomci3",
+        "location": "building8"
+    },
+    "onu50": {
+        "olt": "olt9",
+        "channelTermination": "olt9.ct1",
+        "splitter1": "olt9.ct1.sp1",
+        "vendor": "VENDOR1",
+        "vomci": "vomci1",
+        "location": "building8"
+    },
+    "onu51": {
+        "olt": "olt10",
+        "channelTermination": "olt10.ct2",
+        "splitter1": "olt10.ct2.sp0",
+        "vendor": "VENDOR1",
+        "vomci": "vomci3",
+        "location": "building8"
+    },
+    "onu52": {
+        "olt": "olt10",
+        "channelTermination": "olt10.ct3",
+        "splitter1": "olt10.ct3.sp1",
+        "vendor": "VENDOR3",
+        "vomci": "vomci1",
+        "location": "building8"
+    },
+    "onu53": {
+        "olt": "olt10",
+        "channelTermination": "olt10.ct0",
+        "splitter1": "olt10.ct0.sp0",
+        "vendor": "VENDOR1",
+        "vomci": "vomci2",
+        "location": "building8"
+    },
+    "onu54": {
+        "olt": "olt10",
+        "channelTermination": "olt10.ct1",
+        "splitter1": "olt10.ct1.sp1",
+        "vendor": "VENDOR2",
+        "vomci": "vomci2",
+        "location": "building8"
+    },
+    "onu55": {
+        "olt": "olt10",
+        "channelTermination": "olt10.ct2",
+        "splitter1": "olt10.ct2.sp0",
+        "vendor": "VENDOR1",
+        "vomci": "vomci1",
+        "location": "building9"
+    },
+    "onu56": {
+        "olt": "olt11",
+        "channelTermination": "olt11.ct3",
+        "splitter1": "olt11.ct3.sp1",
+        "vendor": "VENDOR4",
+        "vomci": "vomci1",
+        "location": "building9"
+    },
+    "onu57": {
+        "olt": "olt11",
+        "channelTermination": "olt11.ct0",
+        "splitter1": "olt11.ct0.sp0",
+        "vendor": "VENDOR4",
+        "vomci": "vomci1",
+        "location": "building9"
+    },
+    "onu58": {
+        "olt": "olt11",
+        "channelTermination": "olt11.ct1",
+        "splitter1": "olt11.ct1.sp1",
+        "vendor": "VENDOR4",
+        "vomci": "vomci1",
+        "location": "building9"
+    },
+    "onu59": {
+        "olt": "olt11",
+        "channelTermination": "olt11.ct2",
+        "splitter1": "olt11.ct2.sp0",
+        "vendor": "VENDOR4",
+        "vomci": "vomci3",
+        "location": "building9"
+    },
+    "onu60": {
+        "olt": "olt11",
+        "channelTermination": "olt11.ct3",
+        "splitter1": "olt11.ct3.sp1",
+        "vendor": "VENDOR1",
+        "vomci": "vomci1",
+        "location": "building9"
+    },
+    "onu61": {
+        "olt": "olt12",
+        "channelTermination": "olt12.ct0",
+        "splitter1": "olt12.ct0.sp0",
+        "vendor": "VENDOR3",
+        "vomci": "vomci1",
+        "location": "building10"
+    },
+    "onu62": {
+        "olt": "olt12",
+        "channelTermination": "olt12.ct1",
+        "splitter1": "olt12.ct1.sp1",
+        "vendor": "VENDOR3",
+        "vomci": "vomci3",
+        "location": "building10"
+    },
+    "onu63": {
+        "olt": "olt12",
+        "channelTermination": "olt12.ct2",
+        "splitter1": "olt12.ct2.sp0",
+        "vendor": "VENDOR4",
+        "vomci": "vomci3",
+        "location": "building10"
+    },
+    "onu64": {
+        "olt": "olt12",
+        "channelTermination": "olt12.ct3",
+        "splitter1": "olt12.ct3.sp1",
+        "vendor": "VENDOR4",
+        "vomci": "vomci2",
+        "location": "building10"
+    },
+    "onu65": {
+        "olt": "olt12",
+        "channelTermination": "olt12.ct0",
+        "splitter1": "olt12.ct0.sp0",
+        "vendor": "VENDOR1",
+        "vomci": "vomci3",
+        "location": "building10"
+    },
+    "onu66": {
+        "olt": "olt13",
+        "channelTermination": "olt13.ct1",
+        "splitter1": "olt13.ct1.sp1",
+        "vendor": "VENDOR4",
+        "vomci": "vomci2",
+        "location": "building10"
+    },
+    "onu67": {
+        "olt": "olt13",
+        "channelTermination": "olt13.ct2",
+        "splitter1": "olt13.ct2.sp0",
+        "vendor": "VENDOR4",
+        "vomci": "vomci2",
+        "location": "building11"
+    },
+    "onu68": {
+        "olt": "olt13",
+        "channelTermination": "olt13.ct3",
+        "splitter1": "olt13.ct3.sp1",
+        "vendor": "VENDOR1",
+        "vomci": "vomci1",
+        "location": "building11"
+    },
+    "onu69": {
+        "olt": "olt13",
+        "channelTermination": "olt13.ct0",
+        "splitter1": "olt13.ct0.sp0",
+        "vendor": "VENDOR2",
+        "vomci": "vomci2",
+        "location": "building11"
+    },
+    "onu70": {
+        "olt": "olt13",
+        "channelTermination": "olt13.ct1",
+        "splitter1": "olt13.ct1.sp1",
+        "vendor": "VENDOR1",
+        "vomci": "vomci3",
+        "location": "building11"
+    },
+    "onu71": {
+        "olt": "olt14",
+        "channelTermination": "olt14.ct2",
+        "splitter1": "olt14.ct2.sp0",
+        "vendor": "VENDOR3",
+        "vomci": "vomci3",
+        "location": "building11"
+    },
+    "onu72": {
+        "olt": "olt14",
+        "channelTermination": "olt14.ct3",
+        "splitter1": "olt14.ct3.sp1",
+        "vendor": "VENDOR2",
+        "vomci": "vomci2",
+        "location": "building11"
+    },
+    "onu73": {
+        "olt": "olt14",
+        "channelTermination": "olt14.ct0",
+        "splitter1": "olt14.ct0.sp0",
+        "vendor": "VENDOR1",
+        "vomci": "vomci3",
+        "location": "building12"
+    },
+    "onu74": {
+        "olt": "olt14",
+        "channelTermination": "olt14.ct1",
+        "splitter1": "olt14.ct1.sp1",
+        "vendor": "VENDOR1",
+        "vomci": "vomci1",
+        "location": "building12"
+    },
+    "onu75": {
+        "olt": "olt14",
+        "channelTermination": "olt14.ct2",
+        "splitter1": "olt14.ct2.sp0",
+        "vendor": "VENDOR2",
+        "vomci": "vomci2",
+        "location": "building12"
+    },
+    "onu76": {
+        "olt": "olt15",
+        "channelTermination": "olt15.ct3",
+        "splitter1": "olt15.ct3.sp1",
+        "vendor": "VENDOR1",
+        "vomci": "vomci3",
+        "location": "building12"
+    },
+    "onu77": {
+        "olt": "olt15",
+        "channelTermination": "olt15.ct0",
+        "splitter1": "olt15.ct0.sp0",
+        "vendor": "VENDOR4",
+        "vomci": "vomci2",
+        "location": "building12"
+    },
+    "onu78": {
+        "olt": "olt15",
+        "channelTermination": "olt15.ct1",
+        "splitter1": "olt15.ct1.sp1",
+        "vendor": "VENDOR2",
+        "vomci": "vomci3",
+        "location": "building12"
+    },
+    "onu79": {
+        "olt": "olt15",
+        "channelTermination": "olt15.ct2",
+        "splitter1": "olt15.ct2.sp0",
+        "vendor": "VENDOR3",
+        "vomci": "vomci1",
+        "location": "building13"
+    },
+    "onu80": {
+        "olt": "olt15",
+        "channelTermination": "olt15.ct3",
+        "splitter1": "olt15.ct3.sp1",
+        "vendor": "VENDOR4",
+        "vomci": "vomci1",
+        "location": "building13"
+    },
+    "onu81": {
+        "olt": "olt16",
+        "channelTermination": "olt16.ct0",
+        "splitter1": "olt16.ct0.sp0",
+        "vendor": "VENDOR2",
+        "vomci": "vomci3",
+        "location": "building13"
+    },
+    "onu82": {
+        "olt": "olt16",
+        "channelTermination": "olt16.ct1",
+        "splitter1": "olt16.ct1.sp1",
+        "vendor": "VENDOR3",
+        "vomci": "vomci3",
+        "location": "building13"
+    },
+    "onu83": {
+        "olt": "olt16",
+        "channelTermination": "olt16.ct2",
+        "splitter1": "olt16.ct2.sp0",
+        "vendor": "VENDOR4",
+        "vomci": "vomci3",
+        "location": "building13"
+    },
+    "onu84": {
+        "olt": "olt16",
+        "channelTermination": "olt16.ct3",
+        "splitter1": "olt16.ct3.sp1",
+        "vendor": "VENDOR1",
+        "vomci": "vomci2",
+        "location": "building13"
+    },
+    "onu85": {
+        "olt": "olt16",
+        "channelTermination": "olt16.ct0",
+        "splitter1": "olt16.ct0.sp0",
+        "vendor": "VENDOR1",
+        "vomci": "vomci3",
+        "location": "building14"
+    },
+    "onu86": {
+        "olt": "olt17",
+        "channelTermination": "olt17.ct1",
+        "splitter1": "olt17.ct1.sp1",
+        "vendor": "VENDOR2",
+        "vomci": "vomci2",
+        "location": "building14"
+    },
+    "onu87": {
+        "olt": "olt17",
+        "channelTermination": "olt17.ct2",
+        "splitter1": "olt17.ct2.sp0",
+        "vendor": "VENDOR4",
+        "vomci": "vomci1",
+        "location": "building14"
+    },
+    "onu88": {
+        "olt": "olt17",
+        "channelTermination": "olt17.ct3",
+        "splitter1": "olt17.ct3.sp1",
+        "vendor": "VENDOR4",
+        "vomci": "vomci2",
+        "location": "building14"
+    },
+    "onu89": {
+        "olt": "olt17",
+        "channelTermination": "olt17.ct0",
+        "splitter1": "olt17.ct0.sp0",
+        "vendor": "VENDOR4",
+        "vomci": "vomci2",
+        "location": "building14"
+    },
+    "onu90": {
+        "olt": "olt17",
+        "channelTermination": "olt17.ct1",
+        "splitter1": "olt17.ct1.sp1",
+        "vendor": "VENDOR4",
+        "vomci": "vomci1",
+        "location": "building14"
+    },
+    "onu91": {
+        "olt": "olt18",
+        "channelTermination": "olt18.ct2",
+        "splitter1": "olt18.ct2.sp0",
+        "vendor": "VENDOR3",
+        "vomci": "vomci3",
+        "location": "building15"
+    },
+    "onu92": {
+        "olt": "olt18",
+        "channelTermination": "olt18.ct3",
+        "splitter1": "olt18.ct3.sp1",
+        "vendor": "VENDOR1",
+        "vomci": "vomci1",
+        "location": "building15"
+    },
+    "onu93": {
+        "olt": "olt18",
+        "channelTermination": "olt18.ct0",
+        "splitter1": "olt18.ct0.sp0",
+        "vendor": "VENDOR2",
+        "vomci": "vomci3",
+        "location": "building15"
+    },
+    "onu94": {
+        "olt": "olt18",
+        "channelTermination": "olt18.ct1",
+        "splitter1": "olt18.ct1.sp1",
+        "vendor": "VENDOR3",
+        "vomci": "vomci2",
+        "location": "building15"
+    },
+    "onu95": {
+        "olt": "olt18",
+        "channelTermination": "olt18.ct2",
+        "splitter1": "olt18.ct2.sp0",
+        "vendor": "VENDOR2",
+        "vomci": "vomci1",
+        "location": "building15"
+    },
+    "onu96": {
+        "olt": "olt19",
+        "channelTermination": "olt19.ct3",
+        "splitter1": "olt19.ct3.sp1",
+        "vendor": "VENDOR1",
+        "vomci": "vomci3",
+        "location": "building15"
+    },
+    "onu97": {
+        "olt": "olt19",
+        "channelTermination": "olt19.ct0",
+        "splitter1": "olt19.ct0.sp0",
+        "vendor": "VENDOR4",
+        "vomci": "vomci3",
+        "location": "building16"
+    },
+    "onu98": {
+        "olt": "olt19",
+        "channelTermination": "olt19.ct1",
+        "splitter1": "olt19.ct1.sp1",
+        "vendor": "VENDOR1",
+        "vomci": "vomci2",
+        "location": "building16"
+    },
+    "onu99": {
+        "olt": "olt19",
+        "channelTermination": "olt19.ct2",
+        "splitter1": "olt19.ct2.sp0",
+        "vendor": "VENDOR2",
+        "vomci": "vomci2",
+        "location": "building16"
+    },
+    "onu100": {
+        "olt": "olt19",
+        "channelTermination": "olt19.ct3",
+        "splitter1": "olt19.ct3.sp1",
+        "vendor": "VENDOR3",
+        "vomci": "vomci2",
+        "location": "building16"
+    },
+    "onu101": {
+        "olt": "olt20",
+        "channelTermination": "olt20.ct0",
+        "splitter1": "olt20.ct0.sp0",
+        "vendor": "VENDOR2",
+        "vomci": "vomci3",
+        "location": "building16"
+    },
+    "olt5": {
+        "olt_vendor": "VENDOR2",
+        "serverRoom": "room3"
+    },
+    "olt6": {
+        "olt_vendor": "VENDOR4",
+        "serverRoom": "room1"
+    },
+    "olt7": {
+        "olt_vendor": "VENDOR1",
+        "serverRoom": "room1"
+    },
+    "olt8": {
+        "olt_vendor": "VENDOR1",
+        "serverRoom": "room1"
+    },
+    "olt9": {
+        "olt_vendor": "VENDOR3",
+        "serverRoom": "room3"
+    },
+    "olt10": {
+        "olt_vendor": "VENDOR4",
+        "serverRoom": "room2"
+    },
+    "olt11": {
+        "olt_vendor": "VENDOR3",
+        "serverRoom": "room1"
+    },
+    "olt12": {
+        "olt_vendor": "VENDOR3",
+        "serverRoom": "room3"
+    },
+    "olt13": {
+        "olt_vendor": "VENDOR4",
+        "serverRoom": "room2"
+    },
+    "olt14": {
+        "olt_vendor": "VENDOR2",
+        "serverRoom": "room1"
+    },
+    "olt15": {
+        "olt_vendor": "VENDOR1",
+        "serverRoom": "room3"
+    },
+    "olt16": {
+        "olt_vendor": "VENDOR1",
+        "serverRoom": "room1"
+    },
+    "olt17": {
+        "olt_vendor": "VENDOR3",
+        "serverRoom": "room2"
+    },
+    "olt18": {
+        "olt_vendor": "VENDOR3",
+        "serverRoom": "room1"
+    },
+    "olt19": {
+        "olt_vendor": "VENDOR2",
+        "serverRoom": "room1"
+    },
+    "olt20": {
+        "olt_vendor": "VENDOR1",
+        "serverRoom": "room3"
+    },
+    "olt21": {
+        "olt_vendor": "VENDOR2",
+        "serverRoom": "room3"
+    }
+}

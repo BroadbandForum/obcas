@@ -1,0 +1,42 @@
+[
+    {
+        "alarmTypeId": "obcas:alarm-correlation",
+        "alarmResource": "olt:OLT1",
+        "commonAlarmTypeIds": [
+            "obcas-notification-alarm:v-ani-defect"
+        ],
+        "allAlarmTypeIds": [
+            "obcas-notification-alarm:v-ani-defect"
+        ],
+        "correlatedDevices": [
+            "ont1",
+            "ont2",
+            "ont3",
+            "ont4",
+            "ont5"
+        ],
+        "alarmStatus": "raised",
+        "rootCause": "fiber cut",
+        "time": "2024-09-17T12:09:43"
+    },
+    {
+        "alarmTypeId": "obcas:alarm-correlation",
+        "alarmResource": "powerDistributionArea:PDA2",
+        "commonAlarmTypeIds": [
+            "bbf-xpon-def:lobi",
+            "bbf-xpon-def:dgi"
+        ],
+        "allAlarmTypeIds": [
+            "bbf-xpon-def:lobi",
+            "bbf-xpon-def:dgi"
+        ],
+        "correlatedDevices": [
+            "ont1",
+            "ont2",
+            "ont3",
+            "ont4"
+        ],
+        "alarmStatus": "raised",
+        "time": "2024-09-17T12:09:43"
+    }
+]

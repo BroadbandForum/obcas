@@ -1,0 +1,2480 @@
+{
+	"info": {
+		"_postman_id": "612c1409-9590-4948-aaf1-7e21e37db2b7",
+		"name": "OB-CAS pOLT SImulator- MultipleDevices",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "2885826"
+	},
+	"item": [
+		{
+			"name": "RxMode",
+			"item": [
+				{
+					"name": "RX_Mode_OLT1_onuSim1",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"requests\": [{\"mode\": \"onu_sim\", \"action\": \"RxMODE\", \"onu_sim_ip\": \"172.47.0.16\", \"onu_sim_port\": 50000}]}"
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3002/polt/polt_actions",
+							"protocol": "http",
+							"host": [
+								"10",
+								"131",
+								"213",
+								"129"
+							],
+							"port": "3002",
+							"path": [
+								"polt",
+								"polt_actions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "RX_Mode_OLT2_onuSim2",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"requests\": [{\"mode\": \"onu_sim\", \"action\": \"RxMODE\", \"onu_sim_ip\": \"172.47.0.17\", \"onu_sim_port\": 50001}]}"
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3003/polt/polt_actions",
+							"protocol": "http",
+							"host": [
+								"10",
+								"131",
+								"213",
+								"129"
+							],
+							"port": "3003",
+							"path": [
+								"polt",
+								"polt_actions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "RX_Mode_OLT3_onuSim3",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"requests\": [{\"mode\": \"onu_sim\", \"action\": \"RxMODE\", \"onu_sim_ip\": \"172.47.0.18\", \"onu_sim_port\": 50002}]}"
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3004/polt/polt_actions",
+							"protocol": "http",
+							"host": [
+								"10",
+								"131",
+								"213",
+								"129"
+							],
+							"port": "3004",
+							"path": [
+								"polt",
+								"polt_actions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "RX_Mode_OLT4_onuSim4",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"requests\": [{\"mode\": \"onu_sim\", \"action\": \"RxMODE\", \"onu_sim_ip\": \"172.47.0.19\", \"onu_sim_port\": 50003}]}"
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3005/polt/polt_actions",
+							"protocol": "http",
+							"host": [
+								"10",
+								"131",
+								"213",
+								"129"
+							],
+							"port": "3005",
+							"path": [
+								"polt",
+								"polt_actions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "RX_Mode_OLT5_onuSim5",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"requests\": [{\"mode\": \"onu_sim\", \"action\": \"RxMODE\", \"onu_sim_ip\": \"172.47.0.20\", \"onu_sim_port\": 50004}]}"
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3006/polt/polt_actions",
+							"protocol": "http",
+							"host": [
+								"10",
+								"131",
+								"213",
+								"129"
+							],
+							"port": "3006",
+							"path": [
+								"polt",
+								"polt_actions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "RX_Mode_OLT6_onuSim6",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"requests\": [{\"mode\": \"onu_sim\", \"action\": \"RxMODE\", \"onu_sim_ip\": \"172.47.0.21\", \"onu_sim_port\": 50005}]}"
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3007/polt/polt_actions",
+							"protocol": "http",
+							"host": [
+								"10",
+								"131",
+								"213",
+								"129"
+							],
+							"port": "3007",
+							"path": [
+								"polt",
+								"polt_actions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "RX_Mode_OLT7_onuSim7",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"requests\": [{\"mode\": \"onu_sim\", \"action\": \"RxMODE\", \"onu_sim_ip\": \"172.47.0.22\", \"onu_sim_port\": 50006}]}"
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3008/polt/polt_actions",
+							"protocol": "http",
+							"host": [
+								"10",
+								"131",
+								"213",
+								"129"
+							],
+							"port": "3008",
+							"path": [
+								"polt",
+								"polt_actions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "RX_Mode_OLT8_onuSim8",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"requests\": [{\"mode\": \"onu_sim\", \"action\": \"RxMODE\", \"onu_sim_ip\": \"172.47.0.23\", \"onu_sim_port\": 50007}]}"
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3009/polt/polt_actions",
+							"protocol": "http",
+							"host": [
+								"10",
+								"131",
+								"213",
+								"129"
+							],
+							"port": "3009",
+							"path": [
+								"polt",
+								"polt_actions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "RX_Mode_OLT9_onuSim9",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"requests\": [{\"mode\": \"onu_sim\", \"action\": \"RxMODE\", \"onu_sim_ip\": \"172.47.0.24\", \"onu_sim_port\": 50008}]}"
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3010/polt/polt_actions",
+							"protocol": "http",
+							"host": [
+								"10",
+								"131",
+								"213",
+								"129"
+							],
+							"port": "3010",
+							"path": [
+								"polt",
+								"polt_actions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "RX_Mode_OLT10_onuSim10",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"requests\": [{\"mode\": \"onu_sim\", \"action\": \"RxMODE\", \"onu_sim_ip\": \"172.47.0.25\", \"onu_sim_port\": 50009}]}"
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3011/polt/polt_actions",
+							"protocol": "http",
+							"host": [
+								"10",
+								"131",
+								"213",
+								"129"
+							],
+							"port": "3011",
+							"path": [
+								"polt",
+								"polt_actions"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Add_ONUs",
+			"item": [
+				{
+					"name": "Add_ONU6_OLT2",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"requests\": [\r\n\t\t{\r\n\t\t\t\"channel_term\": \"CT_1\",\r\n\t\t\t\"action\": \"ADDONU\",\r\n\t\t\t\"onu_id\": 6,\r\n\t\t\t\"serial_vendor_id\": \"ABCD\",\r\n\t\t\t\"serial_vendor_specific\": 20000001,\r\n\t\t\t\"flags\": \"present+in_o5+expected\",\r\n\t\t\t\"management_state\": \"relying-on-vomci\"\r\n\t\t}\r\n\t]\r\n}"
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3003/polt/polt_actions",
+							"protocol": "http",
+							"host": [
+								"10",
+								"131",
+								"213",
+								"129"
+							],
+							"port": "3003",
+							"path": [
+								"polt",
+								"polt_actions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add_ONU7_OLT2",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"requests\": [\r\n\t\t{\r\n\t\t\t\"channel_term\": \"CT_1\",\r\n\t\t\t\"action\": \"ADDONU\",\r\n\t\t\t\"onu_id\": 7,\r\n\t\t\t\"serial_vendor_id\": \"ABCD\",\r\n\t\t\t\"serial_vendor_specific\": 20000002,\r\n\t\t\t\"flags\": \"present+in_o5+expected\",\r\n\t\t\t\"management_state\": \"relying-on-vomci\"\r\n\t\t}\r\n\t]\r\n}"
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3003/polt/polt_actions",
+							"protocol": "http",
+							"host": [
+								"10",
+								"131",
+								"213",
+								"129"
+							],
+							"port": "3003",
+							"path": [
+								"polt",
+								"polt_actions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add_ONU8_OLT2",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"requests\": [\r\n\t\t{\r\n\t\t\t\"channel_term\": \"CT_1\",\r\n\t\t\t\"action\": \"ADDONU\",\r\n\t\t\t\"onu_id\": 8,\r\n\t\t\t\"serial_vendor_id\": \"ABCD\",\r\n\t\t\t\"serial_vendor_specific\": 20000003,\r\n\t\t\t\"flags\": \"present+in_o5+expected\",\r\n\t\t\t\"management_state\": \"relying-on-vomci\"\r\n\t\t}\r\n\t]\r\n}"
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3003/polt/polt_actions",
+							"protocol": "http",
+							"host": [
+								"10",
+								"131",
+								"213",
+								"129"
+							],
+							"port": "3003",
+							"path": [
+								"polt",
+								"polt_actions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add_ONU9_OLT2",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"requests\": [\r\n\t\t{\r\n\t\t\t\"channel_term\": \"CT_1\",\r\n\t\t\t\"action\": \"ADDONU\",\r\n\t\t\t\"onu_id\": 9,\r\n\t\t\t\"serial_vendor_id\": \"ABCD\",\r\n\t\t\t\"serial_vendor_specific\": 20000004,\r\n\t\t\t\"flags\": \"present+in_o5+expected\",\r\n\t\t\t\"management_state\": \"relying-on-vomci\"\r\n\t\t}\r\n\t]\r\n}"
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3003/polt/polt_actions",
+							"protocol": "http",
+							"host": [
+								"10",
+								"131",
+								"213",
+								"129"
+							],
+							"port": "3003",
+							"path": [
+								"polt",
+								"polt_actions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add_ONU10_OLT2",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"requests\": [\r\n\t\t{\r\n\t\t\t\"channel_term\": \"CT_1\",\r\n\t\t\t\"action\": \"ADDONU\",\r\n\t\t\t\"onu_id\": 10,\r\n\t\t\t\"serial_vendor_id\": \"ABCD\",\r\n\t\t\t\"serial_vendor_specific\": 20000005,\r\n\t\t\t\"flags\": \"present+in_o5+expected\",\r\n\t\t\t\"management_state\": \"relying-on-vomci\"\r\n\t\t}\r\n\t]\r\n}"
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3003/polt/polt_actions",
+							"protocol": "http",
+							"host": [
+								"10",
+								"131",
+								"213",
+								"129"
+							],
+							"port": "3003",
+							"path": [
+								"polt",
+								"polt_actions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add_ONU11_OLT3",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"requests\": [\r\n\t\t{\r\n\t\t\t\"channel_term\": \"CT_1\",\r\n\t\t\t\"action\": \"ADDONU\",\r\n\t\t\t\"onu_id\": 11,\r\n\t\t\t\"serial_vendor_id\": \"ABCD\",\r\n\t\t\t\"serial_vendor_specific\": 30000001,\r\n\t\t\t\"flags\": \"present+in_o5+expected\",\r\n\t\t\t\"management_state\": \"relying-on-vomci\"\r\n\t\t}\r\n\t]\r\n}"
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3004/polt/polt_actions",
+							"protocol": "http",
+							"host": [
+								"10",
+								"131",
+								"213",
+								"129"
+							],
+							"port": "3004",
+							"path": [
+								"polt",
+								"polt_actions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add_ONU12_OLT3",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"requests\": [\r\n\t\t{\r\n\t\t\t\"channel_term\": \"CT_1\",\r\n\t\t\t\"action\": \"ADDONU\",\r\n\t\t\t\"onu_id\": 12,\r\n\t\t\t\"serial_vendor_id\": \"ABCD\",\r\n\t\t\t\"serial_vendor_specific\": 30000002,\r\n\t\t\t\"flags\": \"present+in_o5+expected\",\r\n\t\t\t\"management_state\": \"relying-on-vomci\"\r\n\t\t}\r\n\t]\r\n}"
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3004/polt/polt_actions",
+							"protocol": "http",
+							"host": [
+								"10",
+								"131",
+								"213",
+								"129"
+							],
+							"port": "3004",
+							"path": [
+								"polt",
+								"polt_actions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add_ONU13_OLT3",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"requests\": [\r\n\t\t{\r\n\t\t\t\"channel_term\": \"CT_1\",\r\n\t\t\t\"action\": \"ADDONU\",\r\n\t\t\t\"onu_id\": 13,\r\n\t\t\t\"serial_vendor_id\": \"ABCD\",\r\n\t\t\t\"serial_vendor_specific\": 30000003,\r\n\t\t\t\"flags\": \"present+in_o5+expected\",\r\n\t\t\t\"management_state\": \"relying-on-vomci\"\r\n\t\t}\r\n\t]\r\n}"
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3004/polt/polt_actions",
+							"protocol": "http",
+							"host": [
+								"10",
+								"131",
+								"213",
+								"129"
+							],
+							"port": "3004",
+							"path": [
+								"polt",
+								"polt_actions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add_ONU14_OLT3",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"requests\": [\r\n\t\t{\r\n\t\t\t\"channel_term\": \"CT_1\",\r\n\t\t\t\"action\": \"ADDONU\",\r\n\t\t\t\"onu_id\": 14,\r\n\t\t\t\"serial_vendor_id\": \"ABCD\",\r\n\t\t\t\"serial_vendor_specific\": 30000004,\r\n\t\t\t\"flags\": \"present+in_o5+expected\",\r\n\t\t\t\"management_state\": \"relying-on-vomci\"\r\n\t\t}\r\n\t]\r\n}"
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3004/polt/polt_actions",
+							"protocol": "http",
+							"host": [
+								"10",
+								"131",
+								"213",
+								"129"
+							],
+							"port": "3004",
+							"path": [
+								"polt",
+								"polt_actions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add_ONU15_OLT3",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"requests\": [\r\n\t\t{\r\n\t\t\t\"channel_term\": \"CT_1\",\r\n\t\t\t\"action\": \"ADDONU\",\r\n\t\t\t\"onu_id\": 15,\r\n\t\t\t\"serial_vendor_id\": \"ABCD\",\r\n\t\t\t\"serial_vendor_specific\": 30000005,\r\n\t\t\t\"flags\": \"present+in_o5+expected\",\r\n\t\t\t\"management_state\": \"relying-on-vomci\"\r\n\t\t}\r\n\t]\r\n}"
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3004/polt/polt_actions",
+							"protocol": "http",
+							"host": [
+								"10",
+								"131",
+								"213",
+								"129"
+							],
+							"port": "3004",
+							"path": [
+								"polt",
+								"polt_actions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add_ONU16_OLT4",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"requests\": [\r\n\t\t{\r\n\t\t\t\"channel_term\": \"CT_1\",\r\n\t\t\t\"action\": \"ADDONU\",\r\n\t\t\t\"onu_id\": 16,\r\n\t\t\t\"serial_vendor_id\": \"ABCD\",\r\n\t\t\t\"serial_vendor_specific\": 40000001,\r\n\t\t\t\"flags\": \"present+in_o5+expected\",\r\n\t\t\t\"management_state\": \"relying-on-vomci\"\r\n\t\t}\r\n\t]\r\n}"
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3005/polt/polt_actions",
+							"protocol": "http",
+							"host": [
+								"10",
+								"131",
+								"213",
+								"129"
+							],
+							"port": "3005",
+							"path": [
+								"polt",
+								"polt_actions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add_ONU17_OLT4",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"requests\": [\r\n\t\t{\r\n\t\t\t\"channel_term\": \"CT_1\",\r\n\t\t\t\"action\": \"ADDONU\",\r\n\t\t\t\"onu_id\": 17,\r\n\t\t\t\"serial_vendor_id\": \"ABCD\",\r\n\t\t\t\"serial_vendor_specific\": 40000002,\r\n\t\t\t\"flags\": \"present+in_o5+expected\",\r\n\t\t\t\"management_state\": \"relying-on-vomci\"\r\n\t\t}\r\n\t]\r\n}"
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3005/polt/polt_actions",
+							"protocol": "http",
+							"host": [
+								"10",
+								"131",
+								"213",
+								"129"
+							],
+							"port": "3005",
+							"path": [
+								"polt",
+								"polt_actions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add_ONU18_OLT4",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"requests\": [\r\n\t\t{\r\n\t\t\t\"channel_term\": \"CT_1\",\r\n\t\t\t\"action\": \"ADDONU\",\r\n\t\t\t\"onu_id\": 18,\r\n\t\t\t\"serial_vendor_id\": \"ABCD\",\r\n\t\t\t\"serial_vendor_specific\": 40000003,\r\n\t\t\t\"flags\": \"present+in_o5+expected\",\r\n\t\t\t\"management_state\": \"relying-on-vomci\"\r\n\t\t}\r\n\t]\r\n}"
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3005/polt/polt_actions",
+							"protocol": "http",
+							"host": [
+								"10",
+								"131",
+								"213",
+								"129"
+							],
+							"port": "3005",
+							"path": [
+								"polt",
+								"polt_actions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add_ONU19_OLT4",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"requests\": [\r\n\t\t{\r\n\t\t\t\"channel_term\": \"CT_1\",\r\n\t\t\t\"action\": \"ADDONU\",\r\n\t\t\t\"onu_id\": 19,\r\n\t\t\t\"serial_vendor_id\": \"ABCD\",\r\n\t\t\t\"serial_vendor_specific\": 40000004,\r\n\t\t\t\"flags\": \"present+in_o5+expected\",\r\n\t\t\t\"management_state\": \"relying-on-vomci\"\r\n\t\t}\r\n\t]\r\n}"
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3005/polt/polt_actions",
+							"protocol": "http",
+							"host": [
+								"10",
+								"131",
+								"213",
+								"129"
+							],
+							"port": "3005",
+							"path": [
+								"polt",
+								"polt_actions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add_ONU20_OLT4",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"requests\": [\r\n\t\t{\r\n\t\t\t\"channel_term\": \"CT_1\",\r\n\t\t\t\"action\": \"ADDONU\",\r\n\t\t\t\"onu_id\": 20,\r\n\t\t\t\"serial_vendor_id\": \"ABCD\",\r\n\t\t\t\"serial_vendor_specific\": 40000005,\r\n\t\t\t\"flags\": \"present+in_o5+expected\",\r\n\t\t\t\"management_state\": \"relying-on-vomci\"\r\n\t\t}\r\n\t]\r\n}"
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3005/polt/polt_actions",
+							"protocol": "http",
+							"host": [
+								"10",
+								"131",
+								"213",
+								"129"
+							],
+							"port": "3005",
+							"path": [
+								"polt",
+								"polt_actions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add_ONU21_OLT5",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"requests\": [\r\n\t\t{\r\n\t\t\t\"channel_term\": \"CT_1\",\r\n\t\t\t\"action\": \"ADDONU\",\r\n\t\t\t\"onu_id\": 21,\r\n\t\t\t\"serial_vendor_id\": \"ABCD\",\r\n\t\t\t\"serial_vendor_specific\": 50000001,\r\n\t\t\t\"flags\": \"present+in_o5+expected\",\r\n\t\t\t\"management_state\": \"relying-on-vomci\"\r\n\t\t}\r\n\t]\r\n}"
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3006/polt/polt_actions",
+							"protocol": "http",
+							"host": [
+								"10",
+								"131",
+								"213",
+								"129"
+							],
+							"port": "3006",
+							"path": [
+								"polt",
+								"polt_actions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add_ONU22_OLT5",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"requests\": [\r\n\t\t{\r\n\t\t\t\"channel_term\": \"CT_1\",\r\n\t\t\t\"action\": \"ADDONU\",\r\n\t\t\t\"onu_id\": 22,\r\n\t\t\t\"serial_vendor_id\": \"ABCD\",\r\n\t\t\t\"serial_vendor_specific\": 50000002,\r\n\t\t\t\"flags\": \"present+in_o5+expected\",\r\n\t\t\t\"management_state\": \"relying-on-vomci\"\r\n\t\t}\r\n\t]\r\n}"
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3006/polt/polt_actions",
+							"protocol": "http",
+							"host": [
+								"10",
+								"131",
+								"213",
+								"129"
+							],
+							"port": "3006",
+							"path": [
+								"polt",
+								"polt_actions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add_ONU23_OLT5",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"requests\": [\r\n\t\t{\r\n\t\t\t\"channel_term\": \"CT_1\",\r\n\t\t\t\"action\": \"ADDONU\",\r\n\t\t\t\"onu_id\": 23,\r\n\t\t\t\"serial_vendor_id\": \"ABCD\",\r\n\t\t\t\"serial_vendor_specific\": 50000003,\r\n\t\t\t\"flags\": \"present+in_o5+expected\",\r\n\t\t\t\"management_state\": \"relying-on-vomci\"\r\n\t\t}\r\n\t]\r\n}"
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3006/polt/polt_actions",
+							"protocol": "http",
+							"host": [
+								"10",
+								"131",
+								"213",
+								"129"
+							],
+							"port": "3006",
+							"path": [
+								"polt",
+								"polt_actions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add_ONU24_OLT5",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"requests\": [\r\n\t\t{\r\n\t\t\t\"channel_term\": \"CT_1\",\r\n\t\t\t\"action\": \"ADDONU\",\r\n\t\t\t\"onu_id\": 24,\r\n\t\t\t\"serial_vendor_id\": \"ABCD\",\r\n\t\t\t\"serial_vendor_specific\": 50000004,\r\n\t\t\t\"flags\": \"present+in_o5+expected\",\r\n\t\t\t\"management_state\": \"relying-on-vomci\"\r\n\t\t}\r\n\t]\r\n}"
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3006/polt/polt_actions",
+							"protocol": "http",
+							"host": [
+								"10",
+								"131",
+								"213",
+								"129"
+							],
+							"port": "3006",
+							"path": [
+								"polt",
+								"polt_actions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add_ONU25_OLT5",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"requests\": [\r\n\t\t{\r\n\t\t\t\"channel_term\": \"CT_1\",\r\n\t\t\t\"action\": \"ADDONU\",\r\n\t\t\t\"onu_id\": 25,\r\n\t\t\t\"serial_vendor_id\": \"ABCD\",\r\n\t\t\t\"serial_vendor_specific\": 50000005,\r\n\t\t\t\"flags\": \"present+in_o5+expected\",\r\n\t\t\t\"management_state\": \"relying-on-vomci\"\r\n\t\t}\r\n\t]\r\n}"
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3006/polt/polt_actions",
+							"protocol": "http",
+							"host": [
+								"10",
+								"131",
+								"213",
+								"129"
+							],
+							"port": "3006",
+							"path": [
+								"polt",
+								"polt_actions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add_ONU26_OLT6",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"requests\": [\r\n\t\t{\r\n\t\t\t\"channel_term\": \"CT_1\",\r\n\t\t\t\"action\": \"ADDONU\",\r\n\t\t\t\"onu_id\": 26,\r\n\t\t\t\"serial_vendor_id\": \"ABCD\",\r\n\t\t\t\"serial_vendor_specific\": 60000001,\r\n\t\t\t\"flags\": \"present+in_o5+expected\",\r\n\t\t\t\"management_state\": \"relying-on-vomci\"\r\n\t\t}\r\n\t]\r\n}"
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3007/polt/polt_actions",
+							"protocol": "http",
+							"host": [
+								"10",
+								"131",
+								"213",
+								"129"
+							],
+							"port": "3007",
+							"path": [
+								"polt",
+								"polt_actions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add_ONU27_OLT6",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"requests\": [\r\n\t\t{\r\n\t\t\t\"channel_term\": \"CT_1\",\r\n\t\t\t\"action\": \"ADDONU\",\r\n\t\t\t\"onu_id\": 27,\r\n\t\t\t\"serial_vendor_id\": \"ABCD\",\r\n\t\t\t\"serial_vendor_specific\": 60000002,\r\n\t\t\t\"flags\": \"present+in_o5+expected\",\r\n\t\t\t\"management_state\": \"relying-on-vomci\"\r\n\t\t}\r\n\t]\r\n}"
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3007/polt/polt_actions",
+							"protocol": "http",
+							"host": [
+								"10",
+								"131",
+								"213",
+								"129"
+							],
+							"port": "3007",
+							"path": [
+								"polt",
+								"polt_actions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add_ONU28_OLT6",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"requests\": [\r\n\t\t{\r\n\t\t\t\"channel_term\": \"CT_1\",\r\n\t\t\t\"action\": \"ADDONU\",\r\n\t\t\t\"onu_id\": 28,\r\n\t\t\t\"serial_vendor_id\": \"ABCD\",\r\n\t\t\t\"serial_vendor_specific\": 60000003,\r\n\t\t\t\"flags\": \"present+in_o5+expected\",\r\n\t\t\t\"management_state\": \"relying-on-vomci\"\r\n\t\t}\r\n\t]\r\n}"
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3007/polt/polt_actions",
+							"protocol": "http",
+							"host": [
+								"10",
+								"131",
+								"213",
+								"129"
+							],
+							"port": "3007",
+							"path": [
+								"polt",
+								"polt_actions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add_ONU29_OLT6",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"requests\": [\r\n\t\t{\r\n\t\t\t\"channel_term\": \"CT_1\",\r\n\t\t\t\"action\": \"ADDONU\",\r\n\t\t\t\"onu_id\": 29,\r\n\t\t\t\"serial_vendor_id\": \"ABCD\",\r\n\t\t\t\"serial_vendor_specific\": 60000004,\r\n\t\t\t\"flags\": \"present+in_o5+expected\",\r\n\t\t\t\"management_state\": \"relying-on-vomci\"\r\n\t\t}\r\n\t]\r\n}"
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3007/polt/polt_actions",
+							"protocol": "http",
+							"host": [
+								"10",
+								"131",
+								"213",
+								"129"
+							],
+							"port": "3007",
+							"path": [
+								"polt",
+								"polt_actions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add_ONU30_OLT6",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"requests\": [\r\n\t\t{\r\n\t\t\t\"channel_term\": \"CT_1\",\r\n\t\t\t\"action\": \"ADDONU\",\r\n\t\t\t\"onu_id\": 30,\r\n\t\t\t\"serial_vendor_id\": \"ABCD\",\r\n\t\t\t\"serial_vendor_specific\": 60000005,\r\n\t\t\t\"flags\": \"present+in_o5+expected\",\r\n\t\t\t\"management_state\": \"relying-on-vomci\"\r\n\t\t}\r\n\t]\r\n}"
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3007/polt/polt_actions",
+							"protocol": "http",
+							"host": [
+								"10",
+								"131",
+								"213",
+								"129"
+							],
+							"port": "3007",
+							"path": [
+								"polt",
+								"polt_actions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add_ONU31_OLT7",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"requests\": [\r\n\t\t{\r\n\t\t\t\"channel_term\": \"CT_1\",\r\n\t\t\t\"action\": \"ADDONU\",\r\n\t\t\t\"onu_id\": 31,\r\n\t\t\t\"serial_vendor_id\": \"ABCD\",\r\n\t\t\t\"serial_vendor_specific\": 70000001,\r\n\t\t\t\"flags\": \"present+in_o5+expected\",\r\n\t\t\t\"management_state\": \"relying-on-vomci\"\r\n\t\t}\r\n\t]\r\n}"
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3008/polt/polt_actions",
+							"protocol": "http",
+							"host": [
+								"10",
+								"131",
+								"213",
+								"129"
+							],
+							"port": "3008",
+							"path": [
+								"polt",
+								"polt_actions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add_ONU32_OLT7",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"requests\": [\r\n\t\t{\r\n\t\t\t\"channel_term\": \"CT_1\",\r\n\t\t\t\"action\": \"ADDONU\",\r\n\t\t\t\"onu_id\": 32,\r\n\t\t\t\"serial_vendor_id\": \"ABCD\",\r\n\t\t\t\"serial_vendor_specific\": 70000002,\r\n\t\t\t\"flags\": \"present+in_o5+expected\",\r\n\t\t\t\"management_state\": \"relying-on-vomci\"\r\n\t\t}\r\n\t]\r\n}"
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3008/polt/polt_actions",
+							"protocol": "http",
+							"host": [
+								"10",
+								"131",
+								"213",
+								"129"
+							],
+							"port": "3008",
+							"path": [
+								"polt",
+								"polt_actions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add_ONU33_OLT7",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"requests\": [\r\n\t\t{\r\n\t\t\t\"channel_term\": \"CT_1\",\r\n\t\t\t\"action\": \"ADDONU\",\r\n\t\t\t\"onu_id\": 33,\r\n\t\t\t\"serial_vendor_id\": \"ABCD\",\r\n\t\t\t\"serial_vendor_specific\": 70000003,\r\n\t\t\t\"flags\": \"present+in_o5+expected\",\r\n\t\t\t\"management_state\": \"relying-on-vomci\"\r\n\t\t}\r\n\t]\r\n}"
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3008/polt/polt_actions",
+							"protocol": "http",
+							"host": [
+								"10",
+								"131",
+								"213",
+								"129"
+							],
+							"port": "3008",
+							"path": [
+								"polt",
+								"polt_actions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add_ONU34_OLT7",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"requests\": [\r\n\t\t{\r\n\t\t\t\"channel_term\": \"CT_1\",\r\n\t\t\t\"action\": \"ADDONU\",\r\n\t\t\t\"onu_id\": 34,\r\n\t\t\t\"serial_vendor_id\": \"ABCD\",\r\n\t\t\t\"serial_vendor_specific\": 70000004,\r\n\t\t\t\"flags\": \"present+in_o5+expected\",\r\n\t\t\t\"management_state\": \"relying-on-vomci\"\r\n\t\t}\r\n\t]\r\n}"
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3008/polt/polt_actions",
+							"protocol": "http",
+							"host": [
+								"10",
+								"131",
+								"213",
+								"129"
+							],
+							"port": "3008",
+							"path": [
+								"polt",
+								"polt_actions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add_ONU35_OLT7",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"requests\": [\r\n\t\t{\r\n\t\t\t\"channel_term\": \"CT_1\",\r\n\t\t\t\"action\": \"ADDONU\",\r\n\t\t\t\"onu_id\": 35,\r\n\t\t\t\"serial_vendor_id\": \"ABCD\",\r\n\t\t\t\"serial_vendor_specific\": 70000005,\r\n\t\t\t\"flags\": \"present+in_o5+expected\",\r\n\t\t\t\"management_state\": \"relying-on-vomci\"\r\n\t\t}\r\n\t]\r\n}"
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3008/polt/polt_actions",
+							"protocol": "http",
+							"host": [
+								"10",
+								"131",
+								"213",
+								"129"
+							],
+							"port": "3008",
+							"path": [
+								"polt",
+								"polt_actions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add_ONU36_OLT8",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"requests\": [\r\n\t\t{\r\n\t\t\t\"channel_term\": \"CT_1\",\r\n\t\t\t\"action\": \"ADDONU\",\r\n\t\t\t\"onu_id\": 36,\r\n\t\t\t\"serial_vendor_id\": \"ABCD\",\r\n\t\t\t\"serial_vendor_specific\": 80000001,\r\n\t\t\t\"flags\": \"present+in_o5+expected\",\r\n\t\t\t\"management_state\": \"relying-on-vomci\"\r\n\t\t}\r\n\t]\r\n}"
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3009/polt/polt_actions",
+							"protocol": "http",
+							"host": [
+								"10",
+								"131",
+								"213",
+								"129"
+							],
+							"port": "3009",
+							"path": [
+								"polt",
+								"polt_actions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add_ONU37_OLT8",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"requests\": [\r\n\t\t{\r\n\t\t\t\"channel_term\": \"CT_1\",\r\n\t\t\t\"action\": \"ADDONU\",\r\n\t\t\t\"onu_id\": 37,\r\n\t\t\t\"serial_vendor_id\": \"ABCD\",\r\n\t\t\t\"serial_vendor_specific\": 80000002,\r\n\t\t\t\"flags\": \"present+in_o5+expected\",\r\n\t\t\t\"management_state\": \"relying-on-vomci\"\r\n\t\t}\r\n\t]\r\n}"
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3009/polt/polt_actions",
+							"protocol": "http",
+							"host": [
+								"10",
+								"131",
+								"213",
+								"129"
+							],
+							"port": "3009",
+							"path": [
+								"polt",
+								"polt_actions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add_ONU38_OLT8",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"requests\": [\r\n\t\t{\r\n\t\t\t\"channel_term\": \"CT_1\",\r\n\t\t\t\"action\": \"ADDONU\",\r\n\t\t\t\"onu_id\": 38,\r\n\t\t\t\"serial_vendor_id\": \"ABCD\",\r\n\t\t\t\"serial_vendor_specific\": 80000003,\r\n\t\t\t\"flags\": \"present+in_o5+expected\",\r\n\t\t\t\"management_state\": \"relying-on-vomci\"\r\n\t\t}\r\n\t]\r\n}"
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3009/polt/polt_actions",
+							"protocol": "http",
+							"host": [
+								"10",
+								"131",
+								"213",
+								"129"
+							],
+							"port": "3009",
+							"path": [
+								"polt",
+								"polt_actions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add_ONU39_OLT8",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"requests\": [\r\n\t\t{\r\n\t\t\t\"channel_term\": \"CT_1\",\r\n\t\t\t\"action\": \"ADDONU\",\r\n\t\t\t\"onu_id\": 39,\r\n\t\t\t\"serial_vendor_id\": \"ABCD\",\r\n\t\t\t\"serial_vendor_specific\": 80000004,\r\n\t\t\t\"flags\": \"present+in_o5+expected\",\r\n\t\t\t\"management_state\": \"relying-on-vomci\"\r\n\t\t}\r\n\t]\r\n}"
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3009/polt/polt_actions",
+							"protocol": "http",
+							"host": [
+								"10",
+								"131",
+								"213",
+								"129"
+							],
+							"port": "3009",
+							"path": [
+								"polt",
+								"polt_actions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add_ONU40_OLT8",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"requests\": [\r\n\t\t{\r\n\t\t\t\"channel_term\": \"CT_1\",\r\n\t\t\t\"action\": \"ADDONU\",\r\n\t\t\t\"onu_id\": 40,\r\n\t\t\t\"serial_vendor_id\": \"ABCD\",\r\n\t\t\t\"serial_vendor_specific\": 80000005,\r\n\t\t\t\"flags\": \"present+in_o5+expected\",\r\n\t\t\t\"management_state\": \"relying-on-vomci\"\r\n\t\t}\r\n\t]\r\n}"
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3009/polt/polt_actions",
+							"protocol": "http",
+							"host": [
+								"10",
+								"131",
+								"213",
+								"129"
+							],
+							"port": "3009",
+							"path": [
+								"polt",
+								"polt_actions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add_ONU41_OLT9",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"requests\": [\r\n\t\t{\r\n\t\t\t\"channel_term\": \"CT_1\",\r\n\t\t\t\"action\": \"ADDONU\",\r\n\t\t\t\"onu_id\": 41,\r\n\t\t\t\"serial_vendor_id\": \"ABCD\",\r\n\t\t\t\"serial_vendor_specific\": 90000001,\r\n\t\t\t\"flags\": \"present+in_o5+expected\",\r\n\t\t\t\"management_state\": \"relying-on-vomci\"\r\n\t\t}\r\n\t]\r\n}"
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3010/polt/polt_actions",
+							"protocol": "http",
+							"host": [
+								"10",
+								"131",
+								"213",
+								"129"
+							],
+							"port": "3010",
+							"path": [
+								"polt",
+								"polt_actions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add_ONU42_OLT9",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"requests\": [\r\n\t\t{\r\n\t\t\t\"channel_term\": \"CT_1\",\r\n\t\t\t\"action\": \"ADDONU\",\r\n\t\t\t\"onu_id\": 42,\r\n\t\t\t\"serial_vendor_id\": \"ABCD\",\r\n\t\t\t\"serial_vendor_specific\": 90000002,\r\n\t\t\t\"flags\": \"present+in_o5+expected\",\r\n\t\t\t\"management_state\": \"relying-on-vomci\"\r\n\t\t}\r\n\t]\r\n}"
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3010/polt/polt_actions",
+							"protocol": "http",
+							"host": [
+								"10",
+								"131",
+								"213",
+								"129"
+							],
+							"port": "3010",
+							"path": [
+								"polt",
+								"polt_actions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add_ONU43_OLT9",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"requests\": [\r\n\t\t{\r\n\t\t\t\"channel_term\": \"CT_1\",\r\n\t\t\t\"action\": \"ADDONU\",\r\n\t\t\t\"onu_id\": 43,\r\n\t\t\t\"serial_vendor_id\": \"ABCD\",\r\n\t\t\t\"serial_vendor_specific\": 90000003,\r\n\t\t\t\"flags\": \"present+in_o5+expected\",\r\n\t\t\t\"management_state\": \"relying-on-vomci\"\r\n\t\t}\r\n\t]\r\n}"
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3010/polt/polt_actions",
+							"protocol": "http",
+							"host": [
+								"10",
+								"131",
+								"213",
+								"129"
+							],
+							"port": "3010",
+							"path": [
+								"polt",
+								"polt_actions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add_ONU44_OLT9",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"requests\": [\r\n\t\t{\r\n\t\t\t\"channel_term\": \"CT_1\",\r\n\t\t\t\"action\": \"ADDONU\",\r\n\t\t\t\"onu_id\": 44,\r\n\t\t\t\"serial_vendor_id\": \"ABCD\",\r\n\t\t\t\"serial_vendor_specific\": 90000004,\r\n\t\t\t\"flags\": \"present+in_o5+expected\",\r\n\t\t\t\"management_state\": \"relying-on-vomci\"\r\n\t\t}\r\n\t]\r\n}"
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3010/polt/polt_actions",
+							"protocol": "http",
+							"host": [
+								"10",
+								"131",
+								"213",
+								"129"
+							],
+							"port": "3010",
+							"path": [
+								"polt",
+								"polt_actions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add_ONU45_OLT9",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"requests\": [\r\n\t\t{\r\n\t\t\t\"channel_term\": \"CT_1\",\r\n\t\t\t\"action\": \"ADDONU\",\r\n\t\t\t\"onu_id\": 45,\r\n\t\t\t\"serial_vendor_id\": \"ABCD\",\r\n\t\t\t\"serial_vendor_specific\": 90000005,\r\n\t\t\t\"flags\": \"present+in_o5+expected\",\r\n\t\t\t\"management_state\": \"relying-on-vomci\"\r\n\t\t}\r\n\t]\r\n}"
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3010/polt/polt_actions",
+							"protocol": "http",
+							"host": [
+								"10",
+								"131",
+								"213",
+								"129"
+							],
+							"port": "3010",
+							"path": [
+								"polt",
+								"polt_actions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add_ONU46_OLT10",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"requests\": [\r\n\t\t{\r\n\t\t\t\"channel_term\": \"CT_1\",\r\n\t\t\t\"action\": \"ADDONU\",\r\n\t\t\t\"onu_id\": 46,\r\n\t\t\t\"serial_vendor_id\": \"ABCD\",\r\n\t\t\t\"serial_vendor_specific\": \"A0000001\",\r\n\t\t\t\"flags\": \"present+in_o5+expected\",\r\n\t\t\t\"management_state\": \"relying-on-vomci\"\r\n\t\t}\r\n\t]\r\n}"
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3011/polt/polt_actions",
+							"protocol": "http",
+							"host": [
+								"10",
+								"131",
+								"213",
+								"129"
+							],
+							"port": "3011",
+							"path": [
+								"polt",
+								"polt_actions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add_ONU47_OLT10",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"requests\": [\r\n\t\t{\r\n\t\t\t\"channel_term\": \"CT_1\",\r\n\t\t\t\"action\": \"ADDONU\",\r\n\t\t\t\"onu_id\": 47,\r\n\t\t\t\"serial_vendor_id\": \"ABCD\",\r\n\t\t\t\"serial_vendor_specific\": \"A0000002\",\r\n\t\t\t\"flags\": \"present+in_o5+expected\",\r\n\t\t\t\"management_state\": \"relying-on-vomci\"\r\n\t\t}\r\n\t]\r\n}"
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3011/polt/polt_actions",
+							"protocol": "http",
+							"host": [
+								"10",
+								"131",
+								"213",
+								"129"
+							],
+							"port": "3011",
+							"path": [
+								"polt",
+								"polt_actions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add_ONU48_OLT10",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"requests\": [\r\n\t\t{\r\n\t\t\t\"channel_term\": \"CT_1\",\r\n\t\t\t\"action\": \"ADDONU\",\r\n\t\t\t\"onu_id\": 48,\r\n\t\t\t\"serial_vendor_id\": \"ABCD\",\r\n\t\t\t\"serial_vendor_specific\": \"A0000003\",\r\n\t\t\t\"flags\": \"present+in_o5+expected\",\r\n\t\t\t\"management_state\": \"relying-on-vomci\"\r\n\t\t}\r\n\t]\r\n}"
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3011/polt/polt_actions",
+							"protocol": "http",
+							"host": [
+								"10",
+								"131",
+								"213",
+								"129"
+							],
+							"port": "3011",
+							"path": [
+								"polt",
+								"polt_actions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add_ONU49_OLT10",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"requests\": [\r\n\t\t{\r\n\t\t\t\"channel_term\": \"CT_1\",\r\n\t\t\t\"action\": \"ADDONU\",\r\n\t\t\t\"onu_id\": 49,\r\n\t\t\t\"serial_vendor_id\": \"ABCD\",\r\n\t\t\t\"serial_vendor_specific\": \"A0000004\",\r\n\t\t\t\"flags\": \"present+in_o5+expected\",\r\n\t\t\t\"management_state\": \"relying-on-vomci\"\r\n\t\t}\r\n\t]\r\n}"
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3011/polt/polt_actions",
+							"protocol": "http",
+							"host": [
+								"10",
+								"131",
+								"213",
+								"129"
+							],
+							"port": "3011",
+							"path": [
+								"polt",
+								"polt_actions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add_ONU50_OLT10",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"requests\": [\r\n\t\t{\r\n\t\t\t\"channel_term\": \"CT_1\",\r\n\t\t\t\"action\": \"ADDONU\",\r\n\t\t\t\"onu_id\": 50,\r\n\t\t\t\"serial_vendor_id\": \"ABCD\",\r\n\t\t\t\"serial_vendor_specific\": \"A0000005\",\r\n\t\t\t\"flags\": \"present+in_o5+expected\",\r\n\t\t\t\"management_state\": \"relying-on-vomci\"\r\n\t\t}\r\n\t]\r\n}"
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3010/polt/polt_actions",
+							"protocol": "http",
+							"host": [
+								"10",
+								"131",
+								"213",
+								"129"
+							],
+							"port": "3010",
+							"path": [
+								"polt",
+								"polt_actions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add_ONU1_OLT1",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"requests\": [\r\n\t\t{\r\n\t\t\t\"channel_term\": \"CT_1\",\r\n\t\t\t\"action\": \"ADDONU\",\r\n\t\t\t\"onu_id\": 1,\r\n\t\t\t\"serial_vendor_id\": \"ABCD\",\r\n\t\t\t\"serial_vendor_specific\": 10000001,\r\n\t\t\t\"flags\": \"present+in_o5+expected\",\r\n\t\t\t\"management_state\": \"relying-on-vomci\"\r\n\t\t}\r\n\t]\r\n}"
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3002/polt/polt_actions",
+							"protocol": "http",
+							"host": [
+								"10",
+								"131",
+								"213",
+								"129"
+							],
+							"port": "3002",
+							"path": [
+								"polt",
+								"polt_actions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add_ONU2_OLT1",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"requests\": [\r\n\t\t{\r\n\t\t\t\"channel_term\": \"CT_1\",\r\n\t\t\t\"action\": \"ADDONU\",\r\n\t\t\t\"onu_id\": 2,\r\n\t\t\t\"serial_vendor_id\": \"ABCD\",\r\n\t\t\t\"serial_vendor_specific\": 10000002,\r\n\t\t\t\"flags\": \"present+in_o5+expected\",\r\n\t\t\t\"management_state\": \"relying-on-vomci\"\r\n\t\t}\r\n\t]\r\n}"
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3002/polt/polt_actions",
+							"protocol": "http",
+							"host": [
+								"10",
+								"131",
+								"213",
+								"129"
+							],
+							"port": "3002",
+							"path": [
+								"polt",
+								"polt_actions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add_ONU3_OLT1",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"requests\": [\r\n\t\t{\r\n\t\t\t\"channel_term\": \"CT_1\",\r\n\t\t\t\"action\": \"ADDONU\",\r\n\t\t\t\"onu_id\": 3,\r\n\t\t\t\"serial_vendor_id\": \"ABCD\",\r\n\t\t\t\"serial_vendor_specific\": 10000003,\r\n\t\t\t\"flags\": \"present+in_o5+expected\",\r\n\t\t\t\"management_state\": \"relying-on-vomci\"\r\n\t\t}\r\n\t]\r\n}"
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3002/polt/polt_actions",
+							"protocol": "http",
+							"host": [
+								"10",
+								"131",
+								"213",
+								"129"
+							],
+							"port": "3002",
+							"path": [
+								"polt",
+								"polt_actions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add_ONU4_OLT1",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"requests\": [\r\n\t\t{\r\n\t\t\t\"channel_term\": \"CT_1\",\r\n\t\t\t\"action\": \"ADDONU\",\r\n\t\t\t\"onu_id\": 4,\r\n\t\t\t\"serial_vendor_id\": \"ABCD\",\r\n\t\t\t\"serial_vendor_specific\": 10000004,\r\n\t\t\t\"flags\": \"present+in_o5+expected\",\r\n\t\t\t\"management_state\": \"relying-on-vomci\"\r\n\t\t}\r\n\t]\r\n}"
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3002/polt/polt_actions",
+							"protocol": "http",
+							"host": [
+								"10",
+								"131",
+								"213",
+								"129"
+							],
+							"port": "3002",
+							"path": [
+								"polt",
+								"polt_actions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add_ONU5_OLT1",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"requests\": [\r\n\t\t{\r\n\t\t\t\"channel_term\": \"CT_1\",\r\n\t\t\t\"action\": \"ADDONU\",\r\n\t\t\t\"onu_id\": 5,\r\n\t\t\t\"serial_vendor_id\": \"ABCD\",\r\n\t\t\t\"serial_vendor_specific\": 10000005,\r\n\t\t\t\"flags\": \"present+in_o5+expected\",\r\n\t\t\t\"management_state\": \"relying-on-vomci\"\r\n\t\t}\r\n\t]\r\n}"
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3002/polt/polt_actions",
+							"protocol": "http",
+							"host": [
+								"10",
+								"131",
+								"213",
+								"129"
+							],
+							"port": "3002",
+							"path": [
+								"polt",
+								"polt_actions"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

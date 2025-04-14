@@ -1,0 +1,30 @@
+{
+  "mappings": {
+    "properties": {
+      "commonAttribute": {
+        "type": "keyword"
+      },
+      "commonAttributeValue": {
+        "type": "keyword"
+      },
+      "correlationStatus": {
+        "type": "keyword"
+      },
+      "correlationDevices": {
+        "type": "keyword"
+      },
+      "commonAlarmsTypeIds": {
+        "type": "keyword"
+      },
+      "allAlarmsTypeIds": {
+        "type": "keyword"
+      },
+      "raisedTime": {
+        "type": "date"
+      },
+      "time": {
+        "type": "date"
+      }
+    }
+  }
+}

@@ -1,0 +1,4 @@
+theme: jekyll-theme-cayman
+google_analytics: true
+obcas_release: 1.0.0
+obcas_readme: https://github.com/BroadbandForum/obcas/blob/master/README.md

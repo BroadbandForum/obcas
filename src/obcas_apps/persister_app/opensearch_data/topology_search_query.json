@@ -1,0 +1,14 @@
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match": {
+            "serialNumber": "%serialNumber%"
+          }
+        }
+      ]
+    }
+  },
+  "_source": ["deviceRefId"]
+}

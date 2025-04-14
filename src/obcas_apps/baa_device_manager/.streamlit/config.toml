@@ -1,0 +1,12 @@
+[ui]
+hideTopBar = true
+
+[theme]
+base="light"
+primaryColor="#09ad1b"
+backgroundColor="white"
+secondaryBackgroundColor="#c6cace"
+
+[client]
+showSidebarNavigation = false
+toolbarMode="viewer"

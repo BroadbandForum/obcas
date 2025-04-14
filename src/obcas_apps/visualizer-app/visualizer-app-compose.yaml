@@ -1,0 +1,41 @@
+version: '3.5'
+
+networks:
+  obcas_e2e:
+    external: true
+
+services:
+  alarm-correlation-webapp:
+    image: broadbandforum/alarm-correlation-visualizer-webapp:latest
+    hostname: alarm-correlation-webapp 
+    container_name: alarm-correlation-webapp
+    environment:
+      OPENSEARCH_HOST: "127.0.0.1" #change IP to the right public IP of open-search server.
+      OPENSEARCH_PORT: 443
+      OPENSEARCH_USER: "admin"
+      OPENSEARCH_PASSWORD: "Obcas@2024"
+      REACT_APP_CONDOR_URL: "https://www.condortech.com.ar"
+      BAA_SERVER_IP: "127.0.0.1" # update the right public IP of BAA server
+    
+    ports:
+      - 3000:3000
+        
+    networks:
+      - obcas_e2e
+
+  alarm-correlation-nginx:
+    image: broadbandforum/alarm-correlation-visualizer-nginx-webapp:latest
+    container_name: alarm-correlation-nginx
+    environment:
+      OPENSEARCH_SERVER: "172.47.0.27:9200"  #change IP to the right public IP of open-search server, include port if required
+      ALARM_CORRELATION_SERVER: "alarm-correlation-webapp:3000"
+      SERVER_NAME: "localhost" # update the right public IP or hostname where proxy will listen
+      SERVER_PORT: "443" # change to different port if needed
+    ports:
+      - 80:80
+      - 443:443
+    depends_on:
+      - alarm-correlation-webapp
+    networks:
+      - obcas_e2e
+

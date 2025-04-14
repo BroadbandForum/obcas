@@ -1,0 +1,100 @@
+{
+  "home.page.portal.title": "Alarm Correlation Visualizer",
+  "menu.label.alarms": "Alarms",
+
+  "helper.alarms.administration": "Alarm's correlation and topology distribution on map",
+  "title.alarms": "Alarms",
+  "title.correlations": "Alarm Correlations",
+  "title.topology": "Topology",  
+
+  "field.correlativeId": "Correlation",
+  
+  
+  "field.raisedTime": "Time",
+  "field.objectId": "Object",
+  "field.deviceRefId": "Device Reference",
+  "field.alarmTypeId": "Alarm type",
+  "field.alarmSeverity": "Alarm severity",
+  "field.alarmText": "Alarm text",
+  "field.device": "Device",
+  "field.object.type": "Object Type",
+  "field.object": "Object",
+  "field.alarmResource": "Alarm Resource",
+  "field.vAniRefId": "Ani Ref Id",
+
+  "field.time": "Time",
+  "field.correlatedDevices": "Devices",
+  "field.commonAttribute": "Common Element",
+  "field.commonAlarmTypeIds": "Common Alarm types",
+  "field.correlationStatus": "Status",
+  "field.correlationDescription" :"Description",
+  
+
+  
+
+  "location.click.to.search.message": "Click on search to mark the location",
+  "location.complete.address.to.search.message": "Add location data to be able to put a marker, or click on map",
+  "location.drag.to.set.marker.message": "If the location is not accurate, drag the marker to the desired position",
+
+  "button.search": "Search",
+  "button.save": "Save",
+  "button.cancel": "Cancel",
+  "button.signout": "Sign out",
+  "button.add": "Add",
+  "button.show.otbs":"Show OTBs",
+
+  "title.otbs": "OTBs",
+  "title.create.otb": "Create OTB",
+  "title.otb.ports": "OTB Ports",
+  "title.add.otb.port": "Add OTB port",
+  "title.last.updated": "Last updated: ",
+
+  "helper.title": "Help",
+  "helper.obt.administration": "OTB's Administration",
+  
+
+  "menu.label.otbs": "OTBs",
+  "menu.label.maps": "Maps",
+  "menu.label.list": "List",
+  "menu.label.map": "Map",
+  "menu.label.sales.marketing": "Sales/Marketing",
+  "menu.label.network.planning": "Network planning",
+  "menu.label.operations": "Operations",
+
+  "menu.label.sales.marketing.connect.rate":"Connect rate",
+  "menu.label.sales.marketing.take.rate": "Take rate",
+  "menu.label.sales.marketing.usage.rate": "Usage rate",
+  "menu.label.network.connect.rate": "Connect rate",
+  "menu.label.network.take.rate": "Take rate",
+  "menu.label.network.traffic": "Traffic",
+  "menu.label.operations.traffic": "Traffic",
+  "menu.label.operations.ports.with.ont.on": "% ports with ONT on",
+  "menu.label.operations.ppm.error.packages": "PPM error packages",
+
+  "field.country": "Country",
+  "field.state": "State",
+  "field.city": "City",
+  "field.street": "Street",
+  "field.number": "Number",
+  "field.id": "Identifier",
+  "field.olt": "OLT",
+  "field.ponPort": "PON Port",
+  "field.radio": "Radius",
+  "field.premises": "Premises",
+  "field.address": "Address",
+  "field.port.state": "State",
+  "field.ontId": "ONT Id",
+
+  "ont.state.value.reserved": "Reserved",
+  "ont.state.value.active": "Active",
+  "ont.state.value.suspended": "Suspended",
+  "ont.state.value.withdrawn": "No service",
+  "ont.state.value.free": "Available",
+
+  "period.dic": "Dec",
+  "period.ene": "Jan",
+  "period.feb": "Feb",
+  "period.mar": "Mar",
+  "period.abr": "Apr",
+  "period.may": "May"
+}

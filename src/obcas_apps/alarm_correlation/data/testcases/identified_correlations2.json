@@ -1,0 +1,19 @@
+[
+    {
+        "alarmTypeId": "obcas:alarm-correlation",
+        "alarmResource": "channelTermination:OLT1.ct2",
+        "commonAlarmTypeIds": [
+            "obcas-notification-alarm:v-ani-defect"
+        ],
+        "allAlarmTypeIds": [
+            "obcas-notification-alarm:v-ani-defect"
+        ],
+        "correlatedDevices": [
+            "ont1",
+            "ont2",
+            "ont3",
+            "ont4"
+        ],
+        "time": "2024-09-17T12:09:43"
+    }
+]

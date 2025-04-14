@@ -1,0 +1,17 @@
+<filter type="subtree">
+    <network-manager xmlns="urn:bbf:yang:obbaa:network-manager">
+        <managed-devices>
+            <device>
+                <name>{{ deviceName }}</name>
+                <root>
+                    <if:interfaces xmlns:if="urn:ietf:params:xml:ns:yang:ietf-interfaces">
+                        <if:interface>
+                            <if:name/>
+                            <if:type xmlns:bbf-xponift="urn:bbf:yang:bbf-xpon-if-type">bbf-xponift:ani</if:type>
+                        </if:interface>
+                    </if:interfaces>
+                </root>
+            </device>
+        </managed-devices>
+    </network-manager>
+</filter>

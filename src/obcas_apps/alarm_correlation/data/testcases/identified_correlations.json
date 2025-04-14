@@ -1,0 +1,142 @@
+[
+    {
+        "alarmTypeId": "obcas:alarm-correlation",
+        "alarmResource": "olt:OLT1",
+        "commonAlarmTypeIds": [
+            "obcas-notification-alarm:v-ani-defect"
+        ],
+        "allAlarmTypeIds": [
+            "obcas-notification-alarm:v-ani-defect"
+        ],
+        "correlatedDevices": [
+            "ont1",
+            "ont2",
+            "ont3",
+            "ont4",
+            "ont5"
+        ],
+        "alarmStatus": "raised",
+        "time": "2024-09-17T12:09:43"
+    },
+    {
+        "alarmTypeId": "obcas:alarm-correlation",
+        "alarmResource": "channelTermination:OLT1.ct1",
+        "commonAlarmTypeIds": [
+            "obcas-notification-alarm:v-ani-defect"
+        ],
+        "allAlarmTypeIds": [
+            "obcas-notification-alarm:v-ani-defect"
+        ],
+        "correlatedDevices": [
+            "ont1",
+            "ont2",
+            "ont3",
+            "ont4",
+            "ont5"
+        ],
+        "alarmStatus": "raised",
+        "time": "2024-09-17T12:09:43"
+    },
+    {
+        "alarmTypeId": "obcas:alarm-correlation",
+        "alarmResource": "channelTermination:OLT1.ct2",
+        "commonAlarmTypeIds": [
+            "obcas-notification-alarm:v-ani-defect"
+        ],
+        "allAlarmTypeIds": [
+            "obcas-notification-alarm:v-ani-defect"
+        ],
+        "correlatedDevices": [
+            "ont1",
+            "ont2",
+            "ont3",
+            "ont4",
+            "ont5"
+        ],
+        "alarmStatus": "raised",
+        "time": "2024-09-17T12:09:43"
+    },
+    {
+        "alarmTypeId": "obcas:alarm-correlation",
+        "alarmResource": "olt:OLT2",
+        "commonAlarmTypeIds": [
+            "bbf-xpon-def:lobi"
+        ],
+        "allAlarmTypeIds": [
+            "bbf-xpon-def:lobi",
+            "obcas-notification-alarm:v-ani-defect"
+        ],
+        "correlatedDevices": [
+            "ont2",
+            "ont3",
+            "ont4",
+            "ont5",
+            "ont6"
+        ],
+        "alarmStatus": "raised",
+        "time": "2024-09-17T12:09:43"
+    },
+    {
+        "alarmTypeId": "obcas:alarm-correlation",
+        "alarmResource": "olt:OLT3",
+        "commonAlarmTypeIds": [
+            "bbf-xpon-def:lobi",
+            "obcas-notification-alarm:v-ani-defect"
+        ],
+        "allAlarmTypeIds": [
+            "bbf-xpon-def:lobi",
+            "obcas-notification-alarm:v-ani-defect"
+        ],
+        "correlatedDevices": [
+            "ont3",
+            "ont4",
+            "ont5",
+            "ont6",
+            "ont7"
+        ],
+        "alarmStatus": "raised",
+        "time": "2024-09-17T12:09:43"
+    },
+    {
+        "alarmTypeId": "obcas:alarm-correlation",
+        "alarmResource": "olt:OLT4",
+        "commonAlarmTypeIds": [
+            "bbf-xpon-def:lobi",
+            "bbf-xpon-def:dgi"
+        ],
+        "allAlarmTypeIds": [
+            "bbf-xpon-def:lobi",
+            "bbf-xpon-def:dgi"
+        ],
+        "correlatedDevices": [
+            "ont4",
+            "ont5",
+            "ont6",
+            "ont7",
+            "ont8"
+        ],
+        "alarmStatus": "raised",
+        "time": "2024-09-17T12:09:43"
+    },
+    {
+        "alarmTypeId": "obcas:alarm-correlation",
+        "alarmResource": "powerDistributionArea:PDA1",
+        "commonAlarmTypeIds": [
+            "bbf-xpon-def:lobi",
+            "bbf-xpon-def:dgi"
+        ],
+        "allAlarmTypeIds": [
+            "bbf-xpon-def:lobi",
+            "bbf-xpon-def:dgi"
+        ],
+        "correlatedDevices": [
+            "ont4",
+            "ont5",
+            "ont6",
+            "ont7",
+            "ont8"
+        ],
+        "alarmStatus": "raised",
+        "time": "2024-09-17T12:09:43"
+    }
+]

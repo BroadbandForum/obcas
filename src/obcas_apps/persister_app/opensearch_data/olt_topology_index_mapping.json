@@ -1,0 +1,42 @@
+{
+  "mappings": {
+    "properties": {
+      "deviceRefId": {
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        },
+        "type": "text"
+      },
+      "cabinet": {
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        },
+        "type": "text"
+      },
+      "powerDistributionArea": {
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        },
+        "type": "text"
+      },
+      "vendor": {
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        },
+        "type": "text"
+      }
+    }
+  }
+}

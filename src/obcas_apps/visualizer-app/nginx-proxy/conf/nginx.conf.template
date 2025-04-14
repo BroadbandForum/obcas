@@ -1,0 +1,83 @@
+# Nginx configuration file
+
+user  nginx;
+worker_processes  auto;
+
+error_log  /var/log/nginx/error.log warn;
+pid        /var/run/nginx.pid;
+
+events {
+    worker_connections  1024;
+}
+
+# Main http block
+http {
+    #Default conf
+    include       /etc/nginx/mime.types;
+    default_type  application/octet-stream;
+
+    log_format  main  '${DOLLAR}remote_addr - ${DOLLAR}remote_user [${DOLLAR}time_local] "${DOLLAR}request" '
+                      '${DOLLAR}status ${DOLLAR}body_bytes_sent "${DOLLAR}http_referer" '
+                      '"${DOLLAR}http_user_agent" "${DOLLAR}http_x_forwarded_for"';
+
+    access_log  /var/log/nginx/access.log  main;
+
+    server_tokens	off;
+
+    sendfile 		off;
+    tcp_nopush		on;
+
+    keepalive_timeout	60;
+    tcp_nodelay		on;
+    client_body_timeout 15;
+    proxy_redirect off; 
+
+    gzip		on;
+    gzip_vary		on;
+    gzip_min_length		1k;
+    
+    # CORS headers
+    add_header 'Access-Control-Allow-Origin' '*' always;
+    add_header 'Access-Control-Allow-Methods' 'GET, POST, OPTIONS' always;
+    add_header 'Access-Control-Allow-Headers' 'DNT,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range' always;
+    add_header 'Access-Control-Allow-Credentials' 'true' always;
+    #proxy_cookie_flags ~ secure samesite=none;
+    
+    
+    # Main server block
+    server {
+        listen ${SERVER_PORT} ssl;
+        server_name ${SERVER_NAME};
+        ssl_certificate     /etc/nginx/nginx.crt;
+        ssl_certificate_key /etc/nginx/nginx.key;
+
+        # Proxy pass for React app
+        location /alarms-correlation {
+            proxy_pass https://${ALARM_CORRELATION_SERVER};
+        }
+
+        location /opensearch {
+            proxy_pass https://${OPENSEARCH_SERVER};
+        }
+
+	      location /_cat/indices {
+            proxy_pass https://${OPENSEARCH_SERVER};
+        }
+
+	      location ~ ^/obcas-.* {
+	          proxy_pass https://${OPENSEARCH_SERVER};
+        }
+
+        location /opensearch2 {
+ 	        rewrite ^/opensearch2/(.*)${DOLLAR} https://${OPENSEARCH_SERVER}/${DOLLAR}1 permanent;
+        }
+       
+        location /ws {
+          proxy_pass http://${ALARM_CORRELATION_SERVER};
+          proxy_http_version 1.1;
+          proxy_set_header Upgrade ${DOLLAR}http_upgrade;
+          proxy_set_header Connection "Upgrade";
+        }
+    }
+    
+}

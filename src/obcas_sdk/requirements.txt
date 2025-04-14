@@ -1,0 +1,8 @@
+Jinja2
+ncclient==0.6.7
+netconf-console2
+requests
+setuptools
+opensearch-py
+pybreaker
+fluent-logger

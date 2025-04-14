@@ -1,0 +1,9 @@
+<rpc xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" message-id="10101">
+	<action xmlns="urn:ietf:params:xml:ns:yang:1">
+		<deploy-adapter xmlns="urn:bbf:yang:obbaa:device-adapters">
+			<deploy>
+				<adapter-archive>BBF-OLT-simulator-2.2.kar</adapter-archive>
+			</deploy>
+		</deploy-adapter>
+	</action>
+</rpc>

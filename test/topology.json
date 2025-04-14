@@ -1,0 +1,52 @@
+{
+    "OLT11": {
+      "host": "132.177.253.4",
+      "port": "3002",
+      "resources": ["/hw:hardware/hw:component[hw:name='SFP1']"]
+    },
+    "OLT12": {
+      "host": "132.177.253.4",
+      "port": "3003",
+      "resources": ["/hw:hardware/hw:component[hw:name='SFP1']"]
+    },
+    "OLT13": {
+      "host": "132.177.253.4",
+      "port": "3004",
+      "resources": ["/hw:hardware/hw:component[hw:name='SFP1']"]
+    },
+    "OLT14": {
+      "host": "132.177.253.4",
+      "port": "3005",
+      "resources": ["/hw:hardware/hw:component[hw:name='SFP1']"]
+    },
+    "OLT15": {
+      "host": "132.177.253.4",
+      "port": "3006",
+      "resources": ["/hw:hardware/hw:component[hw:name='SFP1']"]
+    },
+    "OLT16": {
+      "host": "132.177.253.4",
+      "port": "3007",
+      "resources": ["/hw:hardware/hw:component[hw:name='SFP1']"]
+    },
+    "OLT17": {
+      "host": "132.177.253.4",
+      "port": "3008",
+      "resources": ["/hw:hardware/hw:component[hw:name='SFP1']"]
+    },
+    "OLT18": {
+      "host": "132.177.253.4",
+      "port": "3009",
+      "resources": ["/hw:hardware/hw:component[hw:name='SFP1']"]
+    },
+    "OLT19": {
+      "host": "132.177.253.4",
+      "port": "3010",
+      "resources": ["/hw:hardware/hw:component[hw:name='SFP1']"]
+    },
+    "OLT20": {
+      "host": "132.177.253.4",
+      "port": "3011",
+      "resources": ["/hw:hardware/hw:component[hw:name='SFP1']"]
+    }
+}

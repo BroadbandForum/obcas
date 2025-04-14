@@ -1,0 +1,105 @@
+{
+  "mappings": {
+    "properties": {
+      "channel_termination": {
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        },
+        "type": "text"
+      },
+      "deviceRefId": {
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        },
+        "type": "text"
+      },
+      "nf": {
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        },
+        "type": "text"
+      },
+      "olt": {
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        },
+        "type": "text"
+      },
+      "serialNumber": {
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        },
+        "type": "text"
+      },
+      "splitter": {
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        },
+        "type": "text"
+      },
+      "time": {
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        },
+        "type": "text"
+      },
+      "vendor": {
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        },
+        "type": "text"
+      },
+      "voltmf": {
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        },
+        "type": "text"
+      },
+      "vomci": {
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        },
+        "type": "text"
+      },
+      "vaniRefId": {
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        },
+        "type": "text"
+      }
+    }
+  }
+}

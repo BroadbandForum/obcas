@@ -1,0 +1,18 @@
+<filter type="subtree">
+         <network-manager xmlns="urn:bbf:yang:obbaa:network-manager">
+            <managed-devices>
+               <device>
+                  <name>{{ deviceName }}</name>
+                  <root>
+                     <if:interfaces xmlns:if="urn:ietf:params:xml:ns:yang:ietf-interfaces">
+                        <if:interface>
+                           <bbf-xpon:channel-termination xmlns:bbf-xpon="urn:bbf:yang:bbf-xpon">
+                              <bbf-xpon:channel-pair-ref>{{ channelPairRef }}</bbf-xpon:channel-pair-ref>
+                           </bbf-xpon:channel-termination>
+                        </if:interface>
+                     </if:interfaces>
+                  </root>
+               </device>
+            </managed-devices>
+         </network-manager>
+      </filter>

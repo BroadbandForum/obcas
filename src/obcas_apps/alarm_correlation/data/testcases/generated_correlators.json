@@ -1,0 +1,957 @@
+{
+    "olt": {
+        "olt0": [
+            "onu3",
+            "onu5",
+            "onu4",
+            "onu1",
+            "onu2"
+        ],
+        "olt1": [
+            "onu9",
+            "onu7",
+            "onu10",
+            "onu8",
+            "onu6"
+        ],
+        "olt2": [
+            "onu11",
+            "onu14",
+            "onu15",
+            "onu12",
+            "onu13"
+        ],
+        "olt3": [
+            "onu18",
+            "onu20",
+            "onu19",
+            "onu16",
+            "onu17"
+        ],
+        "olt4": [
+            "onu21",
+            "onu24",
+            "onu25",
+            "onu22",
+            "onu23"
+        ],
+        "olt5": [
+            "onu29",
+            "onu28",
+            "onu30",
+            "onu26",
+            "onu27"
+        ],
+        "olt6": [
+            "onu32",
+            "onu31",
+            "onu34",
+            "onu35",
+            "onu33"
+        ],
+        "olt7": [
+            "onu36",
+            "onu38",
+            "onu39",
+            "onu37",
+            "onu40"
+        ],
+        "olt8": [
+            "onu42",
+            "onu45",
+            "onu43",
+            "onu41",
+            "onu44"
+        ],
+        "olt9": [
+            "onu48",
+            "onu50",
+            "onu49",
+            "onu47",
+            "onu46"
+        ],
+        "olt10": [
+            "onu52",
+            "onu51",
+            "onu54",
+            "onu55",
+            "onu53"
+        ],
+        "olt11": [
+            "onu56",
+            "onu58",
+            "onu60",
+            "onu57",
+            "onu59"
+        ],
+        "olt12": [
+            "onu63",
+            "onu64",
+            "onu61",
+            "onu65",
+            "onu62"
+        ],
+        "olt13": [
+            "onu70",
+            "onu66",
+            "onu68",
+            "onu69",
+            "onu67"
+        ],
+        "olt14": [
+            "onu72",
+            "onu74",
+            "onu73",
+            "onu75",
+            "onu71"
+        ],
+        "olt15": [
+            "onu76",
+            "onu77",
+            "onu80",
+            "onu78",
+            "onu79"
+        ],
+        "olt16": [
+            "onu85",
+            "onu81",
+            "onu83",
+            "onu82",
+            "onu84"
+        ],
+        "olt17": [
+            "onu90",
+            "onu86",
+            "onu88",
+            "onu89",
+            "onu87"
+        ],
+        "olt18": [
+            "onu93",
+            "onu94",
+            "onu91",
+            "onu92",
+            "onu95"
+        ],
+        "olt19": [
+            "onu99",
+            "onu98",
+            "onu100",
+            "onu96",
+            "onu97"
+        ],
+        "olt20": [
+            "onu101"
+        ]
+    },
+    "channelTermination": {
+        "olt0.ct1": [
+            "onu2"
+        ],
+        "olt1.ct1": [
+            "onu10",
+            "onu6"
+        ],
+        "olt0.ct0": [
+            "onu1",
+            "onu5"
+        ],
+        "olt0.ct2": [
+            "onu3"
+        ],
+        "olt0.ct3": [
+            "onu4"
+        ],
+        "olt1.ct2": [
+            "onu7"
+        ],
+        "olt1.ct3": [
+            "onu8"
+        ],
+        "olt1.ct0": [
+            "onu9"
+        ],
+        "olt2.ct2": [
+            "onu11",
+            "onu15"
+        ],
+        "olt2.ct3": [
+            "onu12"
+        ],
+        "olt2.ct0": [
+            "onu13"
+        ],
+        "olt2.ct1": [
+            "onu14"
+        ],
+        "olt3.ct3": [
+            "onu16",
+            "onu20"
+        ],
+        "olt3.ct0": [
+            "onu17"
+        ],
+        "olt3.ct1": [
+            "onu18"
+        ],
+        "olt3.ct2": [
+            "onu19"
+        ],
+        "olt4.ct0": [
+            "onu21",
+            "onu25"
+        ],
+        "olt4.ct1": [
+            "onu22"
+        ],
+        "olt4.ct2": [
+            "onu23"
+        ],
+        "olt4.ct3": [
+            "onu24"
+        ],
+        "olt5.ct1": [
+            "onu26",
+            "onu30"
+        ],
+        "olt5.ct2": [
+            "onu27"
+        ],
+        "olt5.ct3": [
+            "onu28"
+        ],
+        "olt5.ct0": [
+            "onu29"
+        ],
+        "olt6.ct2": [
+            "onu35",
+            "onu31"
+        ],
+        "olt6.ct3": [
+            "onu32"
+        ],
+        "olt6.ct0": [
+            "onu33"
+        ],
+        "olt6.ct1": [
+            "onu34"
+        ],
+        "olt7.ct3": [
+            "onu40",
+            "onu36"
+        ],
+        "olt7.ct0": [
+            "onu37"
+        ],
+        "olt7.ct1": [
+            "onu38"
+        ],
+        "olt7.ct2": [
+            "onu39"
+        ],
+        "olt8.ct0": [
+            "onu45",
+            "onu41"
+        ],
+        "olt8.ct1": [
+            "onu42"
+        ],
+        "olt8.ct2": [
+            "onu43"
+        ],
+        "olt8.ct3": [
+            "onu44"
+        ],
+        "olt9.ct1": [
+            "onu46",
+            "onu50"
+        ],
+        "olt9.ct2": [
+            "onu47"
+        ],
+        "olt9.ct3": [
+            "onu48"
+        ],
+        "olt9.ct0": [
+            "onu49"
+        ],
+        "olt10.ct2": [
+            "onu55",
+            "onu51"
+        ],
+        "olt10.ct3": [
+            "onu52"
+        ],
+        "olt10.ct0": [
+            "onu53"
+        ],
+        "olt10.ct1": [
+            "onu54"
+        ],
+        "olt11.ct3": [
+            "onu56",
+            "onu60"
+        ],
+        "olt11.ct0": [
+            "onu57"
+        ],
+        "olt11.ct1": [
+            "onu58"
+        ],
+        "olt11.ct2": [
+            "onu59"
+        ],
+        "olt12.ct0": [
+            "onu61",
+            "onu65"
+        ],
+        "olt12.ct1": [
+            "onu62"
+        ],
+        "olt12.ct2": [
+            "onu63"
+        ],
+        "olt12.ct3": [
+            "onu64"
+        ],
+        "olt13.ct1": [
+            "onu66",
+            "onu70"
+        ],
+        "olt13.ct2": [
+            "onu67"
+        ],
+        "olt13.ct3": [
+            "onu68"
+        ],
+        "olt13.ct0": [
+            "onu69"
+        ],
+        "olt14.ct2": [
+            "onu75",
+            "onu71"
+        ],
+        "olt14.ct3": [
+            "onu72"
+        ],
+        "olt14.ct0": [
+            "onu73"
+        ],
+        "olt14.ct1": [
+            "onu74"
+        ],
+        "olt15.ct3": [
+            "onu76",
+            "onu80"
+        ],
+        "olt15.ct0": [
+            "onu77"
+        ],
+        "olt15.ct1": [
+            "onu78"
+        ],
+        "olt15.ct2": [
+            "onu79"
+        ],
+        "olt16.ct0": [
+            "onu81",
+            "onu85"
+        ],
+        "olt16.ct1": [
+            "onu82"
+        ],
+        "olt16.ct2": [
+            "onu83"
+        ],
+        "olt16.ct3": [
+            "onu84"
+        ],
+        "olt17.ct1": [
+            "onu90",
+            "onu86"
+        ],
+        "olt17.ct2": [
+            "onu87"
+        ],
+        "olt17.ct3": [
+            "onu88"
+        ],
+        "olt17.ct0": [
+            "onu89"
+        ],
+        "olt18.ct2": [
+            "onu91",
+            "onu95"
+        ],
+        "olt18.ct3": [
+            "onu92"
+        ],
+        "olt18.ct0": [
+            "onu93"
+        ],
+        "olt18.ct1": [
+            "onu94"
+        ],
+        "olt19.ct3": [
+            "onu100",
+            "onu96"
+        ],
+        "olt19.ct0": [
+            "onu97"
+        ],
+        "olt19.ct1": [
+            "onu98"
+        ],
+        "olt19.ct2": [
+            "onu99"
+        ],
+        "olt20.ct0": [
+            "onu101"
+        ]
+    },
+    "splitter1": {
+        "olt0.ct1.sp1": [
+            "onu2"
+        ],
+        "olt1.ct1.sp1": [
+            "onu10",
+            "onu6"
+        ],
+        "olt0.ct0.sp0": [
+            "onu1",
+            "onu5"
+        ],
+        "olt0.ct2.sp0": [
+            "onu3"
+        ],
+        "olt0.ct3.sp1": [
+            "onu4"
+        ],
+        "olt1.ct2.sp0": [
+            "onu7"
+        ],
+        "olt1.ct3.sp1": [
+            "onu8"
+        ],
+        "olt1.ct0.sp0": [
+            "onu9"
+        ],
+        "olt2.ct2.sp0": [
+            "onu11",
+            "onu15"
+        ],
+        "olt2.ct3.sp1": [
+            "onu12"
+        ],
+        "olt2.ct0.sp0": [
+            "onu13"
+        ],
+        "olt2.ct1.sp1": [
+            "onu14"
+        ],
+        "olt3.ct3.sp1": [
+            "onu16",
+            "onu20"
+        ],
+        "olt3.ct0.sp0": [
+            "onu17"
+        ],
+        "olt3.ct1.sp1": [
+            "onu18"
+        ],
+        "olt3.ct2.sp0": [
+            "onu19"
+        ],
+        "olt4.ct0.sp0": [
+            "onu21",
+            "onu25"
+        ],
+        "olt4.ct1.sp1": [
+            "onu22"
+        ],
+        "olt4.ct2.sp0": [
+            "onu23"
+        ],
+        "olt4.ct3.sp1": [
+            "onu24"
+        ],
+        "olt5.ct1.sp1": [
+            "onu26",
+            "onu30"
+        ],
+        "olt5.ct2.sp0": [
+            "onu27"
+        ],
+        "olt5.ct3.sp1": [
+            "onu28"
+        ],
+        "olt5.ct0.sp0": [
+            "onu29"
+        ],
+        "olt6.ct2.sp0": [
+            "onu35",
+            "onu31"
+        ],
+        "olt6.ct3.sp1": [
+            "onu32"
+        ],
+        "olt6.ct0.sp0": [
+            "onu33"
+        ],
+        "olt6.ct1.sp1": [
+            "onu34"
+        ],
+        "olt7.ct3.sp1": [
+            "onu40",
+            "onu36"
+        ],
+        "olt7.ct0.sp0": [
+            "onu37"
+        ],
+        "olt7.ct1.sp1": [
+            "onu38"
+        ],
+        "olt7.ct2.sp0": [
+            "onu39"
+        ],
+        "olt8.ct0.sp0": [
+            "onu45",
+            "onu41"
+        ],
+        "olt8.ct1.sp1": [
+            "onu42"
+        ],
+        "olt8.ct2.sp0": [
+            "onu43"
+        ],
+        "olt8.ct3.sp1": [
+            "onu44"
+        ],
+        "olt9.ct1.sp1": [
+            "onu46",
+            "onu50"
+        ],
+        "olt9.ct2.sp0": [
+            "onu47"
+        ],
+        "olt9.ct3.sp1": [
+            "onu48"
+        ],
+        "olt9.ct0.sp0": [
+            "onu49"
+        ],
+        "olt10.ct2.sp0": [
+            "onu55",
+            "onu51"
+        ],
+        "olt10.ct3.sp1": [
+            "onu52"
+        ],
+        "olt10.ct0.sp0": [
+            "onu53"
+        ],
+        "olt10.ct1.sp1": [
+            "onu54"
+        ],
+        "olt11.ct3.sp1": [
+            "onu56",
+            "onu60"
+        ],
+        "olt11.ct0.sp0": [
+            "onu57"
+        ],
+        "olt11.ct1.sp1": [
+            "onu58"
+        ],
+        "olt11.ct2.sp0": [
+            "onu59"
+        ],
+        "olt12.ct0.sp0": [
+            "onu61",
+            "onu65"
+        ],
+        "olt12.ct1.sp1": [
+            "onu62"
+        ],
+        "olt12.ct2.sp0": [
+            "onu63"
+        ],
+        "olt12.ct3.sp1": [
+            "onu64"
+        ],
+        "olt13.ct1.sp1": [
+            "onu66",
+            "onu70"
+        ],
+        "olt13.ct2.sp0": [
+            "onu67"
+        ],
+        "olt13.ct3.sp1": [
+            "onu68"
+        ],
+        "olt13.ct0.sp0": [
+            "onu69"
+        ],
+        "olt14.ct2.sp0": [
+            "onu75",
+            "onu71"
+        ],
+        "olt14.ct3.sp1": [
+            "onu72"
+        ],
+        "olt14.ct0.sp0": [
+            "onu73"
+        ],
+        "olt14.ct1.sp1": [
+            "onu74"
+        ],
+        "olt15.ct3.sp1": [
+            "onu76",
+            "onu80"
+        ],
+        "olt15.ct0.sp0": [
+            "onu77"
+        ],
+        "olt15.ct1.sp1": [
+            "onu78"
+        ],
+        "olt15.ct2.sp0": [
+            "onu79"
+        ],
+        "olt16.ct0.sp0": [
+            "onu81",
+            "onu85"
+        ],
+        "olt16.ct1.sp1": [
+            "onu82"
+        ],
+        "olt16.ct2.sp0": [
+            "onu83"
+        ],
+        "olt16.ct3.sp1": [
+            "onu84"
+        ],
+        "olt17.ct1.sp1": [
+            "onu90",
+            "onu86"
+        ],
+        "olt17.ct2.sp0": [
+            "onu87"
+        ],
+        "olt17.ct3.sp1": [
+            "onu88"
+        ],
+        "olt17.ct0.sp0": [
+            "onu89"
+        ],
+        "olt18.ct2.sp0": [
+            "onu91",
+            "onu95"
+        ],
+        "olt18.ct3.sp1": [
+            "onu92"
+        ],
+        "olt18.ct0.sp0": [
+            "onu93"
+        ],
+        "olt18.ct1.sp1": [
+            "onu94"
+        ],
+        "olt19.ct3.sp1": [
+            "onu100",
+            "onu96"
+        ],
+        "olt19.ct0.sp0": [
+            "onu97"
+        ],
+        "olt19.ct1.sp1": [
+            "onu98"
+        ],
+        "olt19.ct2.sp0": [
+            "onu99"
+        ],
+        "olt20.ct0.sp0": [
+            "onu101"
+        ]
+    },
+    "vendor": {
+        "VENDOR1": [
+            "onu76",
+            "onu18",
+            "onu20",
+            "onu74",
+            "onu51",
+            "onu96",
+            "onu92",
+            "onu4",
+            "onu1",
+            "onu25",
+            "onu48",
+            "onu50",
+            "onu85",
+            "onu19",
+            "onu98",
+            "onu65",
+            "onu39",
+            "onu84",
+            "onu70",
+            "onu14",
+            "onu49",
+            "onu55",
+            "onu16",
+            "onu53",
+            "onu37",
+            "onu68",
+            "onu73",
+            "onu44",
+            "onu60",
+            "onu22",
+            "onu17",
+            "onu33"
+        ],
+        "VENDOR2": [
+            "onu72",
+            "onu99",
+            "onu93",
+            "onu34",
+            "onu15",
+            "onu101",
+            "onu86",
+            "onu54",
+            "onu81",
+            "onu23",
+            "onu35",
+            "onu43",
+            "onu41",
+            "onu5",
+            "onu8",
+            "onu45",
+            "onu28",
+            "onu78",
+            "onu31",
+            "onu69",
+            "onu2",
+            "onu75",
+            "onu95"
+        ],
+        "VENDOR3": [
+            "onu52",
+            "onu29",
+            "onu7",
+            "onu32",
+            "onu61",
+            "onu24",
+            "onu27",
+            "onu11",
+            "onu82",
+            "onu100",
+            "onu94",
+            "onu91",
+            "onu62",
+            "onu12",
+            "onu6",
+            "onu79",
+            "onu71"
+        ],
+        "VENDOR4": [
+            "onu90",
+            "onu9",
+            "onu3",
+            "onu63",
+            "onu64",
+            "onu21",
+            "onu47",
+            "onu87",
+            "onu57",
+            "onu26",
+            "onu42",
+            "onu38",
+            "onu88",
+            "onu97",
+            "onu40",
+            "onu36",
+            "onu80",
+            "onu10",
+            "onu66",
+            "onu83",
+            "onu46",
+            "onu67",
+            "onu59",
+            "onu77",
+            "onu56",
+            "onu58",
+            "onu30",
+            "onu89",
+            "onu13"
+        ]
+    },
+    "vomci": {
+        "vomci3": [
+            "onu76",
+            "onu29",
+            "onu18",
+            "onu3",
+            "onu63",
+            "onu51",
+            "onu24",
+            "onu93",
+            "onu34",
+            "onu96",
+            "onu47",
+            "onu62",
+            "onu12",
+            "onu101",
+            "onu71",
+            "onu42",
+            "onu7",
+            "onu85",
+            "onu19",
+            "onu81",
+            "onu65",
+            "onu91",
+            "onu39",
+            "onu23",
+            "onu97",
+            "onu70",
+            "onu43",
+            "onu10",
+            "onu14",
+            "onu49",
+            "onu83",
+            "onu37",
+            "onu82",
+            "onu8",
+            "onu59",
+            "onu32",
+            "onu78",
+            "onu73",
+            "onu30",
+            "onu17"
+        ],
+        "vomci2": [
+            "onu9",
+            "onu72",
+            "onu20",
+            "onu64",
+            "onu99",
+            "onu4",
+            "onu15",
+            "onu25",
+            "onu26",
+            "onu6",
+            "onu86",
+            "onu48",
+            "onu38",
+            "onu54",
+            "onu88",
+            "onu94",
+            "onu98",
+            "onu84",
+            "onu40",
+            "onu35",
+            "onu22",
+            "onu41",
+            "onu100",
+            "onu66",
+            "onu16",
+            "onu53",
+            "onu46",
+            "onu67",
+            "onu77",
+            "onu31",
+            "onu89",
+            "onu69",
+            "onu13",
+            "onu75"
+        ],
+        "vomci1": [
+            "onu90",
+            "onu52",
+            "onu21",
+            "onu74",
+            "onu27",
+            "onu11",
+            "onu92",
+            "onu1",
+            "onu87",
+            "onu57",
+            "onu50",
+            "onu79",
+            "onu36",
+            "onu80",
+            "onu61",
+            "onu55",
+            "onu5",
+            "onu68",
+            "onu45",
+            "onu28",
+            "onu56",
+            "onu58",
+            "onu44",
+            "onu60",
+            "onu2",
+            "onu95",
+            "onu33"
+        ]
+    },
+    "olt_vendor": {
+        "VENDOR4": [
+            "olt2",
+            "olt10",
+            "olt6",
+            "olt13"
+        ],
+        "VENDOR1": [
+            "olt8",
+            "olt7",
+            "olt3",
+            "olt20",
+            "olt1",
+            "olt16",
+            "olt15"
+        ],
+        "VENDOR2": [
+            "olt4",
+            "olt21",
+            "olt5",
+            "olt14",
+            "olt19"
+        ],
+        "VENDOR3": [
+            "olt11",
+            "olt17",
+            "olt9",
+            "olt12",
+            "olt18"
+        ]
+    },
+    "serverRoom": {
+        "room3": [
+            "olt4",
+            "olt21",
+            "olt2",
+            "olt5",
+            "olt3",
+            "olt20",
+            "olt1",
+            "olt15",
+            "olt9",
+            "olt12"
+        ],
+        "room1": [
+            "olt8",
+            "olt7",
+            "olt11",
+            "olt14",
+            "olt16",
+            "olt6",
+            "olt19",
+            "olt18"
+        ],
+        "room2": [
+            "olt10",
+            "olt17",
+            "olt13"
+        ]
+    }
+}

@@ -1,0 +1,16 @@
+import os, sys
+
+build_sys_path = os.getenv('CONDOR_BUILD_PATH')
+if build_sys_path is None:
+    build_sys_path = os.path.expanduser('~/svn/svn2/tools/general/build_system/trunk')
+
+sys.path.append(build_sys_path)
+try:
+    import build_system
+except Exception as error:
+    print('ERROR: Could not import module build_system from directory %s' % build_sys_path)
+    print("Error =",error)
+    sys.exit(1)
+
+build_system.module_sconstruct()
+

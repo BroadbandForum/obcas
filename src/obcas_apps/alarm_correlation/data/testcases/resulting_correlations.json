@@ -1,0 +1,84 @@
+{
+    "channelTermination": {
+        "olt0.ct0": {
+            "allAlarmTypeIds": [
+                "alarmType6",
+                "alarmType5",
+                "alarmType3",
+                "alarmType7"
+            ],
+            "commonAlarmTypeIds": [],
+            "correlatedDevices": [
+                "onu1",
+                "onu5"
+            ]
+        },
+        "olt7.ct3": {
+            "allAlarmTypeIds": [
+                "alarmType1",
+                "alarmType2",
+                "alarmType9",
+                "alarmType7"
+            ],
+            "commonAlarmTypeIds": [
+                "alarmType1"
+            ],
+            "correlatedDevices": [
+                "onu40",
+                "onu36"
+            ]
+        },
+        "olt18.ct2": {
+            "allAlarmTypeIds": [
+                "alarmType6",
+                "alarmType1"
+            ],
+            "commonAlarmTypeIds": [],
+            "correlatedDevices": [
+                "onu91",
+                "onu95"
+            ]
+        }
+    },
+    "splitter1": {
+        "olt0.ct0.sp0": {
+            "allAlarmTypeIds": [
+                "alarmType6",
+                "alarmType5",
+                "alarmType3",
+                "alarmType7"
+            ],
+            "commonAlarmTypeIds": [],
+            "correlatedDevices": [
+                "onu1",
+                "onu5"
+            ]
+        },
+        "olt7.ct3.sp1": {
+            "allAlarmTypeIds": [
+                "alarmType1",
+                "alarmType2",
+                "alarmType9",
+                "alarmType7"
+            ],
+            "commonAlarmTypeIds": [
+                "alarmType1"
+            ],
+            "correlatedDevices": [
+                "onu40",
+                "onu36"
+            ]
+        },
+        "olt18.ct2.sp0": {
+            "allAlarmTypeIds": [
+                "alarmType6",
+                "alarmType1"
+            ],
+            "commonAlarmTypeIds": [],
+            "correlatedDevices": [
+                "onu91",
+                "onu95"
+            ]
+        }
+    }
+}

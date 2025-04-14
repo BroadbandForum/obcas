@@ -1,0 +1,48 @@
+// {
+// //     // Use IntelliSense to learn about possible attributes.
+// //     // Hover to view descriptions of existing attributes.
+// //     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+//     "version": "0.2.0",
+//     "configurations": [
+//         {
+//             "type": "chrome",
+//             "request": "launch",
+//             "name": "Launch Chrome against localhost",
+//             "url": "https://localhost:3000",
+//             "webRoot": "${workspaceFolder}"
+//         }
+//     ]
+// }
+
+// {
+//     "version": "0.2.0",
+//     "configurations": [
+//         {
+//             "type": "chrome",
+//             "request": "launch",
+//             "name": "Launch Chrome against localhost",
+//             "url": "https://localhost:3000",
+//             //"webRoot": "${workspaceFolder}/trunk/docker/src",
+//             "sourceMapPathOverrides": {
+//                 "webpack://src/*": "${webRoot}/*"
+//             }
+//         }
+//     ]
+// }
+
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch Chrome against localhost",
+            "url": "https://localhost:3000",
+            "webRoot": "${workspaceFolder}/modules/interface/generic/main/alarm-correlation-webapp/trunk/docker/src",
+            "sourceMapPathOverrides": {
+                "webpack://src/*": "${webRoot}/src/*"
+            }
+        }
+    ]
+}

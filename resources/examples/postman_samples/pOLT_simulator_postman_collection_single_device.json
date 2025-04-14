@@ -1,0 +1,133 @@
+{
+	"info": {
+		"_postman_id": "eae4a013-6c36-4846-9714-5c3585f6fb2f",
+		"name": "OB-CAS pOLT SImulator",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "2885826"
+	},
+	"item": [
+		{
+			"name": "RX_Mode_OLT1_onuSim1",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"requests\": [{\"mode\": \"onu_sim\", \"action\": \"RxMODE\", \"onu_sim_ip\": \"172.37.0.7\", \"onu_sim_port\": 50000}]}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3002/polt/polt_actions",
+					"protocol": "http",
+					"host": [
+						"10",
+						"131",
+						"213",
+						"129"
+					],
+					"port": "3002",
+					"path": [
+						"polt",
+						"polt_actions"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add_ONU",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"requests\": [\r\n\t\t{\r\n\t\t\t\"channel_term\": \"CT_1\",\r\n\t\t\t\"action\": \"ADDONU\",\r\n\t\t\t\"onu_id\": 1,\r\n\t\t\t\"serial_vendor_id\": \"ABCD\",\r\n\t\t\t\"serial_vendor_specific\": 12345678,\r\n\t\t\t\"flags\": \"present+in_o5+expected\",\r\n\t\t\t\"management_state\": \"relying-on-vomci\"\r\n\t\t}\r\n\t]\r\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3002/polt/polt_actions",
+					"protocol": "http",
+					"host": [
+						"10",
+						"131",
+						"213",
+						"129"
+					],
+					"port": "3002",
+					"path": [
+						"polt",
+						"polt_actions"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete_ONU",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"requests\":\r\n  [\r\n    {\r\n      \"channel_term\": \"CT_1\",\r\n      \"action\": \"REMOVEONU\",\r\n      \"onu_id\": 2,\r\n      \"serial_vendor_id\": \"ABCD\",\r\n      \"serial_vendor_specific\": 12345678,\r\n      \"management_state\": \"relying-on-vomci\"\r\n    }\r\n  ]\r\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3002/polt/polt_actions",
+					"protocol": "http",
+					"host": [
+						"10",
+						"131",
+						"213",
+						"129"
+					],
+					"port": "3002",
+					"path": [
+						"polt",
+						"polt_actions"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,37 @@
+{
+    "common_element_hierarchy": {
+        "h1": [
+            "olt",
+            "channelTermination",
+            "splitter2",
+            "splitter1"
+        ]
+    },
+    "common_element_ignores": [
+        "location"
+    ],
+    "root_causes": [
+        {
+            "name": "Power Cut",
+            "alarmTypeIds": [
+                "bbf-xpon-def:lobi",
+                "bbf-xpon-def:dgi"
+            ],
+            "preferred_common_elements": [
+                "powerDistributionArea"
+            ]
+        },
+        {
+            "name": "Fiber Cut",
+            "alarmTypeIds": [
+                "bbf-xpon-def:lobi"
+            ],
+            "preferred_common_elements": [
+                "olt",
+                "channelTermination",
+                "splitter2",
+                "splitter1"
+            ]
+        }
+    ]
+}

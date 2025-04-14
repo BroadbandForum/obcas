@@ -1,0 +1,11 @@
+<rpc xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" message-id="11">
+  <get>
+    <filter type="subtree">
+      <network-manager xmlns="urn:bbf:yang:obbaa:network-manager">
+        <managed-devices>
+          <device/>
+        </managed-devices>
+      </network-manager>
+    </filter>
+  </get>
+</rpc>

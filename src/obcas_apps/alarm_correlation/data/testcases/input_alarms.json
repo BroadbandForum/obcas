@@ -1,0 +1,423 @@
+[
+    {
+        "deviceRefId": "onu24",
+        "alarmTypeId": "alarmType10",
+        "alarmResource": "alarmResource5",
+        "time": "2025-03-28T18:54:28"
+    },
+    {
+        "deviceRefId": "onu91",
+        "alarmTypeId": "alarmType6",
+        "alarmResource": "alarmResource2",
+        "time": "2025-03-28T18:54:28"
+    },
+    {
+        "deviceRefId": "onu48",
+        "alarmTypeId": "alarmType3",
+        "alarmResource": "alarmResource5",
+        "time": "2025-03-28T18:54:28"
+    },
+    {
+        "deviceRefId": "onu95",
+        "alarmTypeId": "alarmType1",
+        "alarmResource": "alarmResource4",
+        "time": "2025-03-28T18:54:28"
+    },
+    {
+        "deviceRefId": "onu3",
+        "alarmTypeId": "alarmType9",
+        "alarmResource": "alarmResource5",
+        "time": "2025-03-28T18:54:28"
+    },
+    {
+        "deviceRefId": "onu44",
+        "alarmTypeId": "alarmType2",
+        "alarmResource": "alarmResource4",
+        "time": "2025-03-28T18:54:28"
+    },
+    {
+        "deviceRefId": "onu51",
+        "alarmTypeId": "alarmType2",
+        "alarmResource": "alarmResource4",
+        "time": "2025-03-28T18:54:28"
+    },
+    {
+        "deviceRefId": "onu39",
+        "alarmTypeId": "alarmType2",
+        "alarmResource": "alarmResource3",
+        "time": "2025-03-28T18:54:28"
+    },
+    {
+        "deviceRefId": "onu5",
+        "alarmTypeId": "alarmType6",
+        "alarmResource": "alarmResource5",
+        "time": "2025-03-28T18:54:28"
+    },
+    {
+        "deviceRefId": "onu66",
+        "alarmTypeId": "alarmType5",
+        "alarmResource": "alarmResource1",
+        "time": "2025-03-28T18:54:28"
+    },
+    {
+        "deviceRefId": "onu90",
+        "alarmTypeId": "alarmType6",
+        "alarmResource": "alarmResource2",
+        "time": "2025-03-28T18:54:28"
+    },
+    {
+        "deviceRefId": "onu38",
+        "alarmTypeId": "alarmType2",
+        "alarmResource": "alarmResource4",
+        "time": "2025-03-28T18:54:28"
+    },
+    {
+        "deviceRefId": "onu49",
+        "alarmTypeId": "alarmType8",
+        "alarmResource": "alarmResource3",
+        "time": "2025-03-28T18:54:28"
+    },
+    {
+        "deviceRefId": "onu3",
+        "alarmTypeId": "alarmType5",
+        "alarmResource": "alarmResource5",
+        "time": "2025-03-28T18:54:28"
+    },
+    {
+        "deviceRefId": "onu75",
+        "alarmTypeId": "alarmType2",
+        "alarmResource": "alarmResource1",
+        "time": "2025-03-28T18:54:28"
+    },
+    {
+        "deviceRefId": "onu35",
+        "alarmTypeId": "alarmType10",
+        "alarmResource": "alarmResource2",
+        "time": "2025-03-28T18:54:28"
+    },
+    {
+        "deviceRefId": "onu19",
+        "alarmTypeId": "alarmType3",
+        "alarmResource": "alarmResource1",
+        "time": "2025-03-28T18:54:28"
+    },
+    {
+        "deviceRefId": "onu47",
+        "alarmTypeId": "alarmType4",
+        "alarmResource": "alarmResource3",
+        "time": "2025-03-28T18:54:28"
+    },
+    {
+        "deviceRefId": "onu58",
+        "alarmTypeId": "alarmType9",
+        "alarmResource": "alarmResource5",
+        "time": "2025-03-28T18:54:28"
+    },
+    {
+        "deviceRefId": "onu19",
+        "alarmTypeId": "alarmType8",
+        "alarmResource": "alarmResource4",
+        "time": "2025-03-28T18:54:28"
+    },
+    {
+        "deviceRefId": "onu98",
+        "alarmTypeId": "alarmType8",
+        "alarmResource": "alarmResource1",
+        "time": "2025-03-28T18:54:28"
+    },
+    {
+        "deviceRefId": "onu76",
+        "alarmTypeId": "alarmType9",
+        "alarmResource": "alarmResource3",
+        "time": "2025-03-28T18:54:28"
+    },
+    {
+        "deviceRefId": "onu41",
+        "alarmTypeId": "alarmType10",
+        "alarmResource": "alarmResource5",
+        "time": "2025-03-28T18:54:28"
+    },
+    {
+        "deviceRefId": "onu59",
+        "alarmTypeId": "alarmType9",
+        "alarmResource": "alarmResource3",
+        "time": "2025-03-28T18:54:28"
+    },
+    {
+        "deviceRefId": "onu53",
+        "alarmTypeId": "alarmType9",
+        "alarmResource": "alarmResource4",
+        "time": "2025-03-28T18:54:28"
+    },
+    {
+        "deviceRefId": "onu26",
+        "alarmTypeId": "alarmType5",
+        "alarmResource": "alarmResource5",
+        "time": "2025-03-28T18:54:28"
+    },
+    {
+        "deviceRefId": "onu47",
+        "alarmTypeId": "alarmType2",
+        "alarmResource": "alarmResource4",
+        "time": "2025-03-28T18:54:28"
+    },
+    {
+        "deviceRefId": "onu84",
+        "alarmTypeId": "alarmType10",
+        "alarmResource": "alarmResource2",
+        "time": "2025-03-28T18:54:28"
+    },
+    {
+        "deviceRefId": "onu14",
+        "alarmTypeId": "alarmType6",
+        "alarmResource": "alarmResource5",
+        "time": "2025-03-28T18:54:28"
+    },
+    {
+        "deviceRefId": "onu3",
+        "alarmTypeId": "alarmType10",
+        "alarmResource": "alarmResource4",
+        "time": "2025-03-28T18:54:28"
+    },
+    {
+        "deviceRefId": "onu36",
+        "alarmTypeId": "alarmType1",
+        "alarmResource": "alarmResource5",
+        "time": "2025-03-28T18:54:28"
+    },
+    {
+        "deviceRefId": "onu40",
+        "alarmTypeId": "alarmType1",
+        "alarmResource": "alarmResource5",
+        "time": "2025-03-28T18:54:28"
+    },
+    {
+        "deviceRefId": "onu81",
+        "alarmTypeId": "alarmType6",
+        "alarmResource": "alarmResource5",
+        "time": "2025-03-28T18:54:28"
+    },
+    {
+        "deviceRefId": "onu29",
+        "alarmTypeId": "alarmType5",
+        "alarmResource": "alarmResource2",
+        "time": "2025-03-28T18:54:28"
+    },
+    {
+        "deviceRefId": "onu40",
+        "alarmTypeId": "alarmType2",
+        "alarmResource": "alarmResource1",
+        "time": "2025-03-28T18:54:28"
+    },
+    {
+        "deviceRefId": "onu53",
+        "alarmTypeId": "alarmType1",
+        "alarmResource": "alarmResource4",
+        "time": "2025-03-28T18:54:28"
+    },
+    {
+        "deviceRefId": "onu93",
+        "alarmTypeId": "alarmType5",
+        "alarmResource": "alarmResource2",
+        "time": "2025-03-28T18:54:28"
+    },
+    {
+        "deviceRefId": "onu21",
+        "alarmTypeId": "alarmType4",
+        "alarmResource": "alarmResource1",
+        "time": "2025-03-28T18:54:28"
+    },
+    {
+        "deviceRefId": "onu82",
+        "alarmTypeId": "alarmType1",
+        "alarmResource": "alarmResource1",
+        "time": "2025-03-28T18:54:28"
+    },
+    {
+        "deviceRefId": "onu8",
+        "alarmTypeId": "alarmType2",
+        "alarmResource": "alarmResource1",
+        "time": "2025-03-28T18:54:28"
+    },
+    {
+        "deviceRefId": "onu100",
+        "alarmTypeId": "alarmType5",
+        "alarmResource": "alarmResource5",
+        "time": "2025-03-28T18:54:28"
+    },
+    {
+        "deviceRefId": "onu1",
+        "alarmTypeId": "alarmType7",
+        "alarmResource": "alarmResource5",
+        "time": "2025-03-28T18:54:28"
+    },
+    {
+        "deviceRefId": "onu3",
+        "alarmTypeId": "alarmType2",
+        "alarmResource": "alarmResource5",
+        "time": "2025-03-28T18:54:28"
+    },
+    {
+        "deviceRefId": "onu14",
+        "alarmTypeId": "alarmType3",
+        "alarmResource": "alarmResource4",
+        "time": "2025-03-28T18:54:28"
+    },
+    {
+        "deviceRefId": "onu40",
+        "alarmTypeId": "alarmType7",
+        "alarmResource": "alarmResource4",
+        "time": "2025-03-28T18:54:28"
+    },
+    {
+        "deviceRefId": "onu8",
+        "alarmTypeId": "alarmType4",
+        "alarmResource": "alarmResource2",
+        "time": "2025-03-28T18:54:28"
+    },
+    {
+        "deviceRefId": "onu52",
+        "alarmTypeId": "alarmType2",
+        "alarmResource": "alarmResource5",
+        "time": "2025-03-28T18:54:28"
+    },
+    {
+        "deviceRefId": "onu28",
+        "alarmTypeId": "alarmType2",
+        "alarmResource": "alarmResource1",
+        "time": "2025-03-28T18:54:28"
+    },
+    {
+        "deviceRefId": "onu36",
+        "alarmTypeId": "alarmType9",
+        "alarmResource": "alarmResource2",
+        "time": "2025-03-28T18:54:28"
+    },
+    {
+        "deviceRefId": "onu5",
+        "alarmTypeId": "alarmType3",
+        "alarmResource": "alarmResource2",
+        "time": "2025-03-28T18:54:28"
+    },
+    {
+        "deviceRefId": "onu44",
+        "alarmTypeId": "alarmType6",
+        "alarmResource": "alarmResource4",
+        "time": "2025-03-28T18:54:28"
+    },
+    {
+        "deviceRefId": "onu77",
+        "alarmTypeId": "alarmType2",
+        "alarmResource": "alarmResource1",
+        "time": "2025-03-28T18:54:28"
+    },
+    {
+        "deviceRefId": "onu5",
+        "alarmTypeId": "alarmType5",
+        "alarmResource": "alarmResource4",
+        "time": "2025-03-28T18:54:28"
+    },
+    {
+        "deviceRefId": "onu21",
+        "alarmTypeId": "alarmType9",
+        "alarmResource": "alarmResource5",
+        "time": "2025-03-28T18:54:28"
+    },
+    {
+        "deviceRefId": "onu2",
+        "alarmTypeId": "alarmType9",
+        "alarmResource": "alarmResource1",
+        "time": "2025-03-28T18:54:28"
+    },
+    {
+        "deviceRefId": "onu28",
+        "alarmTypeId": "alarmType7",
+        "alarmResource": "alarmResource1",
+        "time": "2025-03-28T18:54:28"
+    },
+    {
+        "deviceRefId": "onu75",
+        "alarmTypeId": "alarmType2",
+        "alarmResource": "alarmResource1",
+        "time": "2025-03-28T18:54:28"
+    },
+    {
+        "deviceRefId": "onu88",
+        "alarmTypeId": "alarmType9",
+        "alarmResource": "alarmResource2",
+        "time": "2025-03-28T18:54:28"
+    },
+    {
+        "deviceRefId": "onu39",
+        "alarmTypeId": "alarmType2",
+        "alarmResource": "alarmResource4",
+        "time": "2025-03-28T18:54:28"
+    },
+    {
+        "deviceRefId": "onu11",
+        "alarmTypeId": "alarmType5",
+        "alarmResource": "alarmResource4",
+        "time": "2025-03-28T18:54:28"
+    },
+    {
+        "deviceRefId": "onu59",
+        "alarmTypeId": "alarmType2",
+        "alarmResource": "alarmResource1",
+        "time": "2025-03-28T18:54:28"
+    },
+    {
+        "deviceRefId": "olt13",
+        "alarmTypeId": "alarmType1",
+        "alarmResource": "alarmResource5",
+        "time": "2025-03-28T18:54:28"
+    },
+    {
+        "deviceRefId": "olt5",
+        "alarmTypeId": "alarmType9",
+        "alarmResource": "alarmResource5",
+        "time": "2025-03-28T18:54:28"
+    },
+    {
+        "deviceRefId": "olt1",
+        "alarmTypeId": "alarmType8",
+        "alarmResource": "alarmResource4",
+        "time": "2025-03-28T18:54:28"
+    },
+    {
+        "deviceRefId": "olt9",
+        "alarmTypeId": "alarmType7",
+        "alarmResource": "alarmResource5",
+        "time": "2025-03-28T18:54:28"
+    },
+    {
+        "deviceRefId": "olt10",
+        "alarmTypeId": "alarmType2",
+        "alarmResource": "alarmResource3",
+        "time": "2025-03-28T18:54:28"
+    },
+    {
+        "alarmTypeId": "obcas:alarm-correlation",
+        "alarmResource": "channelTermination:OLT1.CT_0",
+        "time": "2025-03-28T18:54:28"
+    },
+    {
+        "alarmTypeId": "obcas:alarm-correlation",
+        "alarmResource": "channelTermination:OLT1.CT_1",
+        "time": "2025-03-28T18:54:28"
+    },
+    {
+        "alarmTypeId": "obcas:alarm-correlation",
+        "alarmResource": "channelTermination:OLT1.CT_2",
+        "time": "2025-03-28T18:54:28"
+    },
+    {
+        "alarmTypeId": "obcas:alarm-correlation",
+        "alarmResource": "channelTermination:OLT1.CT_3",
+        "time": "2025-03-28T18:54:28"
+    },
+    {
+        "alarmTypeId": "obcas:alarm-correlation",
+        "alarmResource": "channelTermination:OLT1.CT_4",
+        "time": "2025-03-28T18:54:28"
+    }
+]

@@ -1,0 +1,18 @@
+    <filter type="subtree">
+        <network-manager xmlns="urn:bbf:yang:obbaa:network-manager">
+            <device-adapters>
+                <device-adapter>
+                    <type />
+                    <interface-version />
+                    <model />
+                    <vendor />
+                    <is-netconf/>
+                    <description />
+                    <upload-date />
+                    <developer />
+                    <revision/>
+                    <in-use />
+                </device-adapter>
+            </device-adapters>
+        </network-manager>
+    </filter>

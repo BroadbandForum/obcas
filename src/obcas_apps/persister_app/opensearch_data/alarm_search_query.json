@@ -1,0 +1,29 @@
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match": {
+            "deviceRefId": "%deviceRefId%"
+          }
+        },
+        {
+          "match": {
+            "alarmTypeId": "%alarmTypeId%"
+          }
+        },
+        {
+          "match": {
+            "alarmText": "%alarmText%"
+          }
+        },
+        {
+          "match": {
+            "alarmResource": "%alarmResource%"
+          }
+        }
+      ]
+    }
+  },
+  "_source": ["_id", "raisedTime"]
+}
